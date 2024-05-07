@@ -2,6 +2,7 @@
 date: 2024-04-18T20:11
 tags:
   - META
+icon: BoBxLibrary
 ---
 [[00 - Home]]
 

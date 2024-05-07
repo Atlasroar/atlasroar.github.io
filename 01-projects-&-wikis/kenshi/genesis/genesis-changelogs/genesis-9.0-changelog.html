@@ -1,0 +1,556 @@
+<!DOCTYPE html> <html><head>
+		<title>Genesis 9.0 Changelog</title>
+		<base href="..\..\..\../">
+		<meta id="root-path" root-path="..\..\..\../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="Obsidian-Publish - Genesis 9.0 Changelog">
+		<meta property="og:title" content="Genesis 9.0 Changelog">
+		<meta property="og:description" content="Obsidian-Publish - Genesis 9.0 Changelog">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://atlasroar.github.io/01-projects-&amp;-wikis/kenshi/genesis/genesis-changelogs/genesis-9.0-changelog.html">
+		<meta property="og:image" content="https://cdn.gilcdn.com/ContentMediaGenericFiles/19a76af5049af13de03ef2532480c6d5-Preview.webp?w=1440&amp;h=810&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB">
+		<meta property="og:site_name" content="Obsidian-Publish">
+		<meta name="author" content="Atlas"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://atlasroar.github.io/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script type="module" async="" id="graph-view-script" src="lib/scripts/graph-view.js"></script><script async="" id="graph-wasm-script" src="lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="tinycolor-script" src="lib/scripts/tinycolor.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="pixi-script" src="https://cdnjs.cloudflare.com/ajax/libs/pixi.js/7.4.0/pixi.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="https://cdn.jsdelivr.net/npm/minisearch@6.3.0/dist/umd/index.min.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><script async="" id="graph-data-script" src="lib/scripts/graph-data.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript><link rel="preload" href="lib/styles/snippets.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/snippets.css"></noscript></head><body class="publish css-settings-manager theme-dark show-inline-title highlightr-none hide-folder-note folder-note-underline folder-note-underline-path fn-whitespace-stop-collapsing"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles"></style><pre class="frontmatter language-yaml" tabindex="0" style="display: none;"><code class="language-yaml is-loaded"><span class="token key atrule">date</span><span class="token punctuation">:</span> 2024<span class="token punctuation">-</span>04<span class="token punctuation">-</span>18T19<span class="token punctuation">:</span><span class="token number">39</span>
+<span class="token key atrule">tags</span><span class="token punctuation">:</span>
+  <span class="token punctuation">-</span> Genesis
+  <span class="token punctuation">-</span> changelog</code><button class="copy-code-button">Copy</button></pre><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="The Tech Overhaul"><p>The Tech Overhaul</p></h1><div><p><a data-href="Genesis" href="01-projects-&amp;-wikis/kenshi/genesis/genesis.html" class="internal-link" target="_self" rel="noopener">Genesis</a><br>
+<img src="https://cdn.gilcdn.com/ContentMediaGenericFiles/19a76af5049af13de03ef2532480c6d5-Preview.webp?w=1440&amp;h=810&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div class="heading-wrapper"><div class="heading-children"><div><p>--Changes (Chronological Order)--</p></div><div><p>Some changes may not be fully reflective. with an update this large, stuff is bound to change, so it's only representative as a chronlogical list of what was changed when it was changed.</p></div><div><p>Going on in the future changes will be properly organized by category and will be edited or added to to clarify changes as they evolve over time</p></div><div><ul>
+<li data-line="0">-adjusted the swamp "vines" again. Reduced them again to a density of 1. this should allow them to sparingly spawn but should improve load times, as well as navmesh.</li>
+<li data-line="1">-removed the shek ranch on the edge of vain north of admag. caused loading loops of all assets in the area which caused huge loading spikes. It will be moved further west.</li>
+<li data-line="2">-moved all hive buildings EXCEPT the hive robotics into the hive category.</li>
+<li data-line="3">-adjusted farming in dreg. there is now a farming rank of 10% green and 10% water. THe area is slightly richer in iron (by 5%). This should allow players to base their now and live naturally without outright being forced to rely on hydroponics. You'll just require MUCH more farms and wells.</li>
+<li data-line="4">-adjusted and changed all western hiver villages (i think). since all hive villages share the same template this allowed for very easy and different village looks. some are heavily guarded, some are just farmers, others will be a mix of all of the above.</li>
+<li data-line="5">-all western hive villages can now spawn with mercs "recruit variant",</li>
+<li data-line="6">-all hive villages will spawn with hive caravans that travel from town to town. this should allow those who live in the area to trade much more easily as well as slightly increase the chance to have hivers show up to your base in the area as well as other towns.</li>
+<li data-line="7">-hiver villages now have a police station. it's aptly named "justice station".</li>
+<li data-line="8">-hiver villages are now decently lit (through torches and lanterns)</li>
+<li data-line="9">-upgraded the "distant" hive villages. the one in sinkuun is much more city like and the one in the great desert is a little larger. Due to their general proximity to other factions you'll find more bar squads, more traders and more roaming squads for them in the areas they are in (spawning from their villages)</li>
+<li data-line="10">-made a custom "worker" stat package. they'll average 15-20 combat stats but will have 100 in farming and labor this should make them able to produce much more stuff (like they should if they just work their whole damn life). This'll have a couple benefits of them being able to curb players "taking" from farms. Has been added to western hive drones and generic NPC's</li>
+<li data-line="11">-started changing the adventurers guild rally points. Instead of tiny platforms they'll now be solo shacks. This should completely eliminate the "permanent" spawned campaings from them as well as allowing some other benefits.</li>
+<li data-line="12">-deleted the (HH) hat variants. Without knowing what they are MEANT to look like i'd rather avoid the obscene texture and mesh tearing that happens when NPC's wear them.</li>
+<li data-line="13">-updated string. Now only includes the wayfarers bar and various bar residents</li>
+<li data-line="14">-updated brink town utilities are outside of the city. Plenty of stuff outside the city. though the wells are far away from the city</li>
+<li data-line="15">-brink is now a sizeable village and not a full city. Though due to it's size it has no houses for sale.</li>
+<li data-line="16">-touched up black scratch (still waiting on some assets to touch up the great library)</li>
+<li data-line="17">-moved and remade moon cultist village. Removed the external buildings. Now everyone live in the giant pyramid.</li>
+<li data-line="18">-added a legal system to the skeletons. They now properly have a legal system which will make them punish thieves</li>
+<li data-line="19">-changed the iron mine 1/2 to now act like the copper mine does. Given it's primitive tech it will work slower than normally and require more laborers but it works based off stone. So it should be somewhat easier to farm resources in areas with high stone but less resources of other types. (you can now use the stone/copper/iron mines as low tech alternatives to farm from stone the proper resource you may need in an area that is lacking it)</li>
+<li data-line="20">-removed black beards gully and compressed it into his fort.</li>
+<li data-line="21">-moved black beards fort. Look to the sea to find it.</li>
+<li data-line="22">-moved and rebuilt all of tortuga.</li>
+<li data-line="23">-removed a bunch of the inter factions in tortuga. The NPC's should fight much less.</li>
+<li data-line="24">-removed all residents and replaced with the generic and squatter lists</li>
+<li data-line="25">-figured out and fixed the loading issue surrounding the city of todai dera.</li>
+<li data-line="26">-added a new more generous resource spawn type for farming based off the mountains in stobes garden. Playing mountain top monks should be friendlier.</li>
+<li data-line="27">-changed the interior of the smugglers bar</li>
+<li data-line="28">-added more bar squads to the smugglers bar</li>
+<li data-line="29">-adjusted the pathing around the smugglers bar to fix an issue seen in @KevWasHere video series</li>
+<li data-line="30">-added a town generator to the last waystation as described by @pattmaster</li>
+<li data-line="31">-locked squad sizes of citizens (They won't randomize or grow through setting changes)</li>
+<li data-line="32">-randomized the sohei wandering squad more. Renamed them to samurai as well. This should cause a "trickled" lore effect. Samurais will have various weapons and gear exclusive to them. This should also allow a nice blend of armors in the area AND as they are traveling around without them being bright red/blue beacons.</li>
+<li data-line="33">-removed small barrels</li>
+<li data-line="34">-removed booze barrels</li>
+<li data-line="35">-removed booze barrel</li>
+<li data-line="36">-removed "five" booze barrels</li>
+<li data-line="37">-removed armour storage (small metal chest)</li>
+<li data-line="38">-removed food stores (greyish barrel)</li>
+<li data-line="39">-removed large basket</li>
+<li data-line="40">-removed small crate (small box)</li>
+<li data-line="41">-deleted booze barrel table</li>
+<li data-line="42">-updated the grey desert waystation. It's now using the waystation four name. it's also been moved slightly south west. it's been completely overhauled.</li>
+<li data-line="43">-updated old village</li>
+<li data-line="44">-renamed south stone camp to "Grind stone"</li>
+<li data-line="45">-upgraded slave farm N</li>
+<li data-line="46">-adjusted sheer cliff to be more ruin like</li>
+<li data-line="47">-renamed "the groggery" to Semolina.</li>
+<li data-line="48">Semolina is the coarse, purified wheat middlings (intermediate milling stage) of durum wheat mainly used in making couscous, pasta, and sweet puddings.</li>
+<li data-line="49">-deleted crab villages</li>
+<li data-line="50">-deleted shipwright village (it's been merged into tortuga)</li>
+<li data-line="51">-rebuilt grogery</li>
+<li data-line="52">-hated the new grand bazaar so much i yeeted it and the new manhunter base only to move the bazaar into the wetlands (the sole trade center there, north of clownsteady) and reverted the manhunters base to it's original shape and size just with more buildings</li>
+<li data-line="53">-removed and replaced the hasher faction</li>
+<li data-line="54">-removed the clowns faction</li>
+<li data-line="55">-added more vendors of various factions to the bazaar</li>
+<li data-line="56">-renamed the grand bazaar to "Carsi". Carsi in turkish means "market". more or less.</li>
+<li data-line="57">-overhauled and rebuilt catun from scratch to fix dozens of issues. Lore related and gameplay related.</li>
+<li data-line="58">-remerged the updated CM-Roads &amp; CM-roads-ADDON pack to include and optimize the new stuff added and updated.</li>
+<li data-line="59">-updated the icons and stuff for fogmen to use the new version from fog hunt.</li>
+<li data-line="60">-replaced the pathing for item dependencies to reference the already included work from camels mods.</li>
+<li data-line="61">-noticed an error with severed hive limbs. Renamed and repathed all of them</li>
+<li data-line="62">-made a polish pass on swordran with some of the new assets. replaced the old bar with the new bar1 setup.</li>
+<li data-line="63">-pulled a bunch of the city of swordran (resident hourses) inside it's walls. this should make it less likely citizens will pull grievewraiths into the city.</li>
+<li data-line="64">-rebuilt a bunch of the navmesh and tweaked the road and pathing in and around the city, the new road assets allow straight vertical drops through built in stairs which allows less models to be rendered. TLDR: no more long ramps to gain elevation.</li>
+<li data-line="65">-Reduced the amount of citizens and houses in the city of swordran. Much more condensed and lighter on performance.</li>
+<li data-line="66">-added a new copy of the low arid resources. bumped the farming height by 200. (this should allow basically everywhere around the main castle to be farmable)</li>
+<li data-line="67">-cleaned up a leftover town from the great shun purge</li>
+<li data-line="68">-tweaked 42 sections of the shun road network (a lot of it runs through water alonside the banks of the rivers, i just pulled the road out of the river areas)</li>
+<li data-line="69">-added two new forks in the shun road networks. should cull travel time across the region when traveling long distance.</li>
+<li data-line="70">-removed the roaming squads from swordran and added them as bar squads. this ensures they will spawn and will patrol</li>
+<li data-line="71">-adjusted the gate guard squad. added a squad 2, added rangers to both squads, added more relevant medical items to all tertius guards</li>
+<li data-line="72">-adjusted the patrol squads size</li>
+<li data-line="73">-new holy nation start was added and expanded upon with the HN redux merge.</li>
+<li data-line="74">-renamed holy hessian uniform (from HN redux) to Holy Hessian Pants - Padded</li>
+<li data-line="75">-renamed Stout Hessian pants (vanilla) To Holy Hessian Pants</li>
+<li data-line="76">-changed "sacred rags" to &gt; Holy Hessian Skirt</li>
+<li data-line="77">-edited all cannibals to now carry less armor (% wise) certain types like tenderizers/leaders etc will still wear armor in full force. this should slightly tweak cannibals back to relying on numbers and their many new various weapon setups.</li>
+<li data-line="78">-edited many cannibals of "lower" orders to carry the new weapons.</li>
+<li data-line="79">-many cannibals have been adjusted to be more or less prevalent in certain areas.</li>
+<li data-line="80">-added new cannibal spawns to create infighting in the area</li>
+<li data-line="81">-culled the new "cannibal" squads to be smaller to ensure a lively north but not massive loot everywhere.</li>
+<li data-line="82">-removed cogs crow nest and merged it into gearcove</li>
+<li data-line="83">-rebuilt gearcove. it's more compact....but it's also, so damn cool. had a lot of fun with this hidden ruin design.</li>
+<li data-line="84">cleaned up remaining locations of dyers guild towns. they'll be added back in on player request to existing towns.</li>
+<li data-line="85">-made most of the volcanos around spring completely accesible. they're a little small but can provide some nice looking bases should players wish. (edit: Look for bridges/ramps going up the volcanos)</li>
+<li data-line="86">-upped the skeleton bandits limb qualities. i noticed that with the addition of the skeleton limbs they tended to be much much weaker than they were meant to be. I also balanced their stats to be flat. 45 &gt; combat instead of 42.</li>
+<li data-line="87">-added more limb variations to skeleton bandits. some at lower quality and some at higher. this should provide a decent fight every time as the limbs mix to create different stats</li>
+<li data-line="88">-fixed the floating sign in flats lagoon under the platform as pointed out by @Mobile Kek Suit</li>
+<li data-line="89">-rebuilt the fishing platforms from scratch. should now much better reflect the people living there. Made a duplicate generic fisherman (from the deadcat people). They'll now roam around or spawn at fishing platforms whereever they may be. they now appropriately wear the new fishing gear by cat</li>
+<li data-line="90">-after a day or so of crashing fixed an error with the pathing for the new fishermans gear. Changed the items from "shirts" to "body" armor. Removed the shirt texture layer to prevent a black body.</li>
+<li data-line="91">-fixed the bob haircut. A texture channel was wrong. which caused flickering on a bunch of other hairs when GPU was even slightly strained. Mesh and texture now show correctly. mind you. this wont solve the texture flickering. Unsure at this time what causes it but this change seems to lessen the problem significantly</li>
+<li data-line="92">-After 4 days of consistent crashing, having to force quit, and trying to manually rebuild the entirety of the navmesh in and around mongrel. I said F this. Rebuilt the entirety of mongrel. Which allowed for a slight style change in walls and utilities. The town is a sizeable bit smaller too. Much closer to it's vanilla counterpart with a little more love in the design than before. While simpler i stuck to the last versions design choices.</li>
+<li data-line="93">-The road network in and around mongrel was overhauled. There's less branching paths to nowhere and most of the road network loops back into itself. This should make auto pathing a little more consistent.</li>
+<li data-line="94">-caught a texture crash as a result of the texture pathing of the simpler mills. fixed now.</li>
+<li data-line="95">-Made a secondary pass around the fog islands. Upped the nest spawns from 0 to 3. This should reintroduce a number of fogmen spawns and randomize them a little bit</li>
+<li data-line="96">-upped the number of homeless squads from 3 - 10, reduce the scavenger homeless spawn to a weight of 1, upped the spawn of praetorian squads to a weight of 10,</li>
+<li data-line="97">-adjusted the range of mongrel as a town.</li>
+<li data-line="98">-removed two static deathyards right next to mongrel. this caused a "dead" loop with other towns in the area in which roaming and "bar" squads would no longer spawn.</li>
+<li data-line="99">-upped the roaming squad and bar squad counts for the death yards. decreased them for the nest spawns.</li>
+<li data-line="100">-increased the weight of the slough hyenas spawning in the area.</li>
+<li data-line="101">-added some debris to the static deathyards. should be plenty of bones and bit laying around.</li>
+<li data-line="102">-dropped the max altitude by 200 for boneyard spawns. increased the max slope, increased the building density. With these adjustments it's probably around...20%-ish more common now to find them. (though with the max slop increase they can be harder to reach now)</li>
+<li data-line="103">-for those aware of it. changed the input/output and operators of the ancient forge. it is no longer automated. it also needs 5 people to craft anything. needs tech 6. it needs 50 old cpus per "item". Hunger rate is set to 3.5. Will probably be ramped up even more in the future.</li>
+<li data-line="104">-Added loot randomization to fogmen nests and the static deathyards.</li>
+<li data-line="105">-changed the nest spawned deathyards to have much more condensed "buildings". they'll spawn less in a wide range and closer to the center of the nest.</li>
+<li data-line="106">-Moved Stone camp south. Thus creating a logical trail of "slaves" and caravans from south to north. stone camp is now situated directly south of stoat. who's main focus as redesigned is a "slavers trading grounds"</li>
+<li data-line="107">-made some minor tweaks to the cactus den. tightened up the "town" so it now has an even smaller range and impact. removed some of the lighting in the town to make it much less obvious from a distance.</li>
+<li data-line="108">-tweaked fort mirage. reduced the radius, removed the foliage range. moved the city up on top of the hill, added some more power, upped the squad count, removed the randomization with player settings,</li>
+<li data-line="109">-renamed stone camp to wrought. Wrought is now a heavy industry iron mine for the UC</li>
+<li data-line="110">-moved port south to the hook. it's now situated in between drifters last and clownsteady to fill in the crucial gap of "slavers" in the area.</li>
+<li data-line="111">-adjusted the roads around port south to now travel across a bridge</li>
+<li data-line="112">-pulled all of the road networks in the hook out of water unless there is very little of it at depth. this should allow npcs and players to travel easier through and across the map in the area.</li>
+<li data-line="113">-deleted mechamoor</li>
+<li data-line="114">-deleted the bonepile</li>
+<li data-line="115">-deleted gale</li>
+<li data-line="116">-cleared some of the bottom floor of the "trashed" outpost interior. Purged all guard nodes except from the bottom floor. Great white gorillo should now only roam a very tiny area on the bottom floor. This will prevent him from despawning, or getting stuck. He will still however try to chase you throughout the building. As such i've also cleared much of the interior or pushed all the trashed items into larger piles.</li>
+<li data-line="117">-cleaned up all of mourn. removed some exterior items to reduce loading, removed and condensed some housing. replaced some squads and fleshed out many others. there should now be less infighting however many NPC's have "rebel/outlaw/drifter" dialouge. so they'll complain and make snarky comments and threaten each other.</li>
+<li data-line="118">-adjusted the guards for the gates and replaced the ai with the new genesis package. this should somewhat save mourn from issues as the ai will now purge bodies and heal each other and the city</li>
+<li data-line="119">-deleted lycus</li>
+<li data-line="120">-simplified how the bonefield bandits will work. Players will start off either allying or fighting the bonepack. When the leader is dead the marrows will move in, when the marrows leader is dead the gutter gang will move in. Once all bosses are dead, the factions will dissapear and the outpost will turn into a smugglers den. Each leader killed will wipe out their faction. Each leader has unique rewards. The factions will be common as homeless/nest squads until their leader and base is wiped out.</li>
+<li data-line="121">-cage has been overhauled to be much much simpler and cleaner.</li>
+<li data-line="122">-polished up the bonepacks clothing, weapon and dog selection.</li>
+<li data-line="123">-cleaned up the gutter gang, and the marrows bandit squads.</li>
+<li data-line="124">-adjusted the worldstates for CAGE to now stack. One must happen before the other to ensure no bugs.</li>
+<li data-line="125">-adjusted the stats and weapons of all bandit groups. they're now much weaker. but still decently balanced around being "mid game" bosses.</li>
+<li data-line="126">-removed most crossbows and turrets from cage squads.</li>
+<li data-line="127">-removed beak things from gutter gang squads, they now only have a town spawn (for dead bodies)</li>
+<li data-line="128">-adjusted the relations between gutters and gutter gang to 100 for both. this should avoid them killing each other.</li>
+<li data-line="129">-overhauled lure, gale was semi compressed into it. (one shelter). The town now has a MUCH smaller footprint. The questline will be rewritten to accommodate the sacred band quest. this will give life to part of the south eastern world lore. it'll also help polish up some Holy nation world lore through the interactions with the sacred band and why they are leading the fish islanders</li>
+<li data-line="130">-activated distant mesh for all towns.</li>
+<li data-line="131">-removed ronin weapons BP from all squads, added back to seth</li>
+<li data-line="132">-cleaned out vendors who sold ronin weapons, as previously discussed on discord they're now sold at market vendors</li>
+<li data-line="133">-Deleted the dialogue causing the "..." elipsis problem</li>
+<li data-line="134">-Removed the floating light from skinners roam as reported by @Master-chan</li>
+<li data-line="135">-made a pass on the ark reaver HQ it should have a proper generated navmesh now</li>
+<li data-line="136">-changed scraphouse respawn to 1 week</li>
+<li data-line="137">-deleted hope (haha no hope, go fuck yourself)</li>
+<li data-line="138">-fixed the tree in urusai as pointed out by @Mak</li>
+<li data-line="139">-fixed two scraphouse placement bugs where furniture was inside of other furniture as pointed out by @Master-chan</li>
+<li data-line="140">-changed dack and quin to unique as pointed out by @shade0180</li>
+<li data-line="141">-deleted the wool cap as reported by @Lenin's Cat to avoid the graphical errors it causes</li>
+<li data-line="142">-cut the verglas hound scale down from 1.2 to 1 even</li>
+<li data-line="143">-fixed cannibal lord weapon manufacturer levels</li>
+<li data-line="144">-removed the item called "tech" as reported by @HorHorHor</li>
+<li data-line="145">-fixed brood town area</li>
+<li data-line="146">-deleted the cannibal minion</li>
+<li data-line="147">-renamed some cannibals from more serious names to more inline with what they appear to be in lore, new spiky and meat beater cannibals</li>
+<li data-line="148">-started working on okrans shield, overhauled how all squads work so that all HN citizens are easy to identify. Each church now has it's own guards and staff with unique armor sets. The military now has exact and cleaned up roles.</li>
+<li data-line="149">-overhauled bad teeth, refreshed the city design to be cleaner and replaced all the unique squads with generic squads</li>
+<li data-line="150">-overhauled stack, refreshed the city design</li>
+<li data-line="151">-added a new holy church sign mesh for the......churches from @Boron</li>
+<li data-line="152">-replaced genesis tengus palace with the vanilla tengus palace, thus fixing the crossbow level bug @Master-chan noticed</li>
+<li data-line="153">-fixed the minor housing issues in squin</li>
+<li data-line="154">-finished up the adjustments on squin, squin now uses it's vertical height a lot more for the town to flesh it out and fill it up</li>
+<li data-line="155">-overhauled vainspass and moved it father into vain. Reworked the entire city to be much cleaner.</li>
+<li data-line="156">-moved stenn desert waystation farther south</li>
+<li data-line="157">-moved and rebuilt berserker village south</li>
+<li data-line="158">-moved and rebuilt the great fortress east of its location</li>
+<li data-line="159">-moved and rebuilt last stand west of its location.</li>
+<li data-line="160">-moved and rebuilt admag west of its original location</li>
+<li data-line="161">-added back in and cleaned up the shek ranches</li>
+<li data-line="162">-added all animations to xavage</li>
+<li data-line="163">-added cattrinas CBT hair fix mod.</li>
+<li data-line="164">-added restful base props (the rest of the mod) by snugsnug</li>
+<li data-line="165">-added buildings mod by snugsnug</li>
+<li data-line="166">-added stowage packs mod (by snug - unreleased public)</li>
+<li data-line="167">-per request of @Para added and increased the sniper spawn rates in sniper valley. Now holding a 70% weight to spawn two per zone is roughly a 30% chance. and roughly 50% chance to spawn one alone. added skeleton limbs to them as well thus further randomizing their skill levels.</li>
+<li data-line="168">-reorganized the categories and sub categories of a couple hundred items again. condensed even further into cleaner categories</li>
+<li data-line="169">-merged workbench variations. Mod allows players to upgrade many storage options into 2nd and 3rd tiers. It also randomizes its look for many benches while overhauling many generic storage objects so that players can visually identify whats inside common vanilla barrels. Like greenfruit sitting on top of a greenfruit storage barrel. Iron ore being in iron ore storage.</li>
+<li data-line="170">-added snugsnug weapon mod. it added in some holy nation weapons and civilian weapons left out from earlier phases of genesis.</li>
+<li data-line="171">-reduced the nest spawns in the hook</li>
+<li data-line="172">-adjusted the homeless spawns to be much smaller in grouping.</li>
+<li data-line="173">-changed what the tertius roaming patrols spawn with. they no longer spawn with skeleton grade weapons, they now spawn with catun level.</li>
+<li data-line="174">-patched the dust king tower worldstates to properly stack instead of grouping together. Mercs should no longer spawn randomly.</li>
+<li data-line="175">-Rebuilt crab town to be much more compact</li>
+<li data-line="176">-merged radiant animal subspecies</li>
+<li data-line="177">-striped bulls renamed to banded bulls, now spawn in hook, spider plains, vain. Rare chance to spawn in shek ranches</li>
+<li data-line="178">-changed shek ranches to now use domesticat bulls</li>
+<li data-line="179">-new boneyard dogs only spawn at nomad camps and merchants (with their scarfs)</li>
+<li data-line="180">-new green skimmer reduced in size to about the size of a small bug. they'll now spawn in squads of 5-10 in wooded areas. they're not dangerous....kind of just dont get swarmed</li>
+<li data-line="181">-replaced most of the blood spiders in the swamps with the new green spider variants... Good luck 🙂</li>
+<li data-line="182">-iridescent beak things added to vain, replaces all vain squads. Now replaces the squads in leviathan coast too.</li>
+<li data-line="183">-new land bats will replace all landbat variants in darker areas. The black landbats will be the majority with the white landbats being a rare albino variant now.</li>
+<li data-line="184">-dark garru, now spawn in shun, crater, grid area, leviathan coast.</li>
+<li data-line="185">-deleted longfellow, his lore will be implemented in headshots dialogue to flesh him out more</li>
+<li data-line="186">-purged all of the hidden isles</li>
+<li data-line="187">-moved avalon....north east and rebuilt it to be much tighter and lighter</li>
+<li data-line="188">-moved avalon ruins south east into the hidden isles</li>
+<li data-line="189">-merged economy skeletons mod by subarashi one. they'll be very rare, long lost forgotten robots.</li>
+<li data-line="190">-merged samurai armor expanded by subarashi one</li>
+<li data-line="191">-merged cattrinas new faction furniture mod</li>
+<li data-line="192">-removed the "is recruitable" condiiton from ranes dialogue to fix the bug of not being able to talk to her</li>
+<li data-line="193">-fixed limb vendors not recognizing you steal from them.</li>
+<li data-line="194">-tweaked ashi to be more uniform with the area. it now will host old empire supply posts as a base template complete with gear to loot sharing with empire supply posts.</li>
+<li data-line="195">-changed ashi from an outpost into a ruin (town type) to reflect it's status</li>
+<li data-line="196">-rebuilt leviathan from scratch. now an old outpost hidden away in the midst of ruins players will find all sorts of oddities hidden in the town.</li>
+<li data-line="197">-deleted tin town.</li>
+<li data-line="198">-rebuilt sanctuary from scratch and buffed it a bit</li>
+<li data-line="199">-added in building replacements for UC, they now can spawn sohei houses (storm house &amp; small shack) in towns. This provides a mix of buildings as would be indicated by their standing in the world.</li>
+<li data-line="200">-added building replacements for shek. They now replace storm houses. Giving shek a rustic and beaten town life.</li>
+<li data-line="201">-changed some world features around squin. It now looks like its spawned in a canyon overhung by rocks. (Tldr: a cave).</li>
+<li data-line="202">-overhauled western hive capital with new hive assets.</li>
+<li data-line="203">-compressed hundreds of new items into relevant subcategories. (May need community feedback for further tweaking. May make a color variatons main category for eases of use)</li>
+<li data-line="204">-added new building categories. UC, HN, SHEK. will now hold relevant furniture and buildings assigned to them for cleaner access. This follows suit with buildings - hive and buildings - sohei.</li>
+<li data-line="205">-noticed on stream that the storehouse was pulling to much resource time. Rebuilt its interior with the new assets and cleaned up its interior</li>
+<li data-line="206">-sanctuary now provides mercs and traders for players in the area. This follows suit with adding more random bar squads to populate the world while traveling.</li>
+<li data-line="207">-adjusted naming conventions of categories. Following suit with other categories all furniture is now in town - interior, all roads and such are now in town - exterior. Walls are now under town - walls. Thus grouping major categories into a hanful of main titles. Buildings, town (decorations &amp; additions like roads and bridges, furniture), crafting, farming, camping, &amp; tech. Categories and building organization will come with a full written guide players can use.</li>
+<li data-line="208">-deleted the small backpack</li>
+<li data-line="209">-merged backpacks expanded</li>
+<li data-line="210">-added the new shield roll to UC samurais</li>
+</ul></div><div><p>-changed materials stack &amp; size</p></div><div><p>Iron plates - 3x3 / stack 10</p></div><div><p>copper alloy 3x3 / stack 10</p></div><div><p>building materials 3x6 / stack 5</p></div><div><p>stone 3x3 / stack 5</p></div><div><p>copper 3x3 / stack 5</p></div><div><p>iron 3x3 / stack 5</p></div><div><ul>
+<li data-line="0">-Deleted the large backpack</li>
+<li data-line="1">-deleted the wooden backpack</li>
+<li data-line="2">-deleted empty ruins</li>
+<li data-line="3">-deleted empty ruin</li>
+<li data-line="4">-Renamed ruined farm (HN) to Abandoned Farm. Players can find Farming/food related materials here</li>
+<li data-line="5">-Renamed Ruine Mines (HN) to Abandoned Village. Players can find building related materials here.</li>
+<li data-line="6">-Renamed Ruined Waystation to Abandoned Waystation. Players can find tech related materials here</li>
+<li data-line="7">-deleted leaning tower ruins across the map.</li>
+<li data-line="8">-Created a new faction. "Ruins". Unless lore related most ruins will fall under this new "not real" faction. Allowing for simpler edits when it comes to the ruins and allowing better blanket changes to be adjusted across ruins.</li>
+<li data-line="9">-all ruins will now be unified under the unexplored name of "Ruins". This should provide a sense of mystery and give more reason to actually explore each ruin.</li>
+</ul></div><div><p>-Ruins will now fall into one of 4 categories.</p></div><div><p>--Ruins. In general these wont be very desirable except in the early game. Players will generally be able to tell what these are by the fact they hold collapsed ruins and the loot is strewn about.</p></div><div><p>--Lost. These structures have been lost to time and dont appear on any maps until they are found. Players will find a large range of items and enemies in these ruins. Rusting but still standing these hold a larger amount of desriable wealth and items.</p></div><div><p>--Ancient. These ruins are challenges. Hosting harder enemies guarding more desirable wealth and items. Maps for these come with warnings and are expensive.</p></div><div><p>--Vaults. These host unique items, bosses and sometimes recruits. These will eventually have their own tie together lore. Their own advancements through the ranks of the tech hunters and machinists.</p></div><div><ul>
+<li data-line="0">-deleted restful peak</li>
+<li data-line="1">-deleted northfall mine</li>
+<li data-line="2">-deleted black cinder mine</li>
+<li data-line="3">-deleted alden</li>
+<li data-line="4">-deleted ruvanil</li>
+<li data-line="5">-deleted cragrock mine</li>
+<li data-line="6">-deleted crimson stronghold</li>
+<li data-line="7">-deleted tintown</li>
+<li data-line="8">-replaced the town "gate" in the grid named post ancient workshop with the correct town name and type : Post ancient workshop &gt; Gate</li>
+<li data-line="9">-moved the winged beak ogre thing nest to spawn as a nest in the shrieking forest</li>
+<li data-line="10">-replaced puple sands enviormental resource data. it now acts like a desert except it is worse for farming overall.</li>
+<li data-line="11">-adjusted and scaled down the races the scavengers can be. They'll now prioritize the human like (Sentient) Species. Greenlander, scorch, hiver, shek. etc</li>
+<li data-line="12">-fixed the race issue with howlers. now single gender they will no longer pop up showing they are missing races</li>
+<li data-line="13">-deleted the blackshifters vault</li>
+<li data-line="14">-deleted the library outpost ruin</li>
+<li data-line="15">-deleted the infested village</li>
+<li data-line="16">-removed the gusoku armors from vendors they were accidentally applied to.</li>
+<li data-line="17">-merged cats clothing overhaul</li>
+<li data-line="18">-Removed some items in favor of the more flavorful ones ("geared items").</li>
+<li data-line="19">-adjusted the HN citizens to have more clothes from the above overhaul.</li>
+<li data-line="20">-Adjusted the bags on HN citizens. They'll now exclusively have the new bags from the overhaul.</li>
+<li data-line="21">-removed over 100 squads across the game that were no longer used and were being replaced with more default squads per faction</li>
+<li data-line="22">-Merged tengu mod by catt:</li>
+<li data-line="23">-added a new vendor to tengus palace. Tengus old robes and mask now rest there. (it should theoretically spawn multiple, will also include blueprints for those items).</li>
+<li data-line="24">-tengus new clothes and weapon are 100% unique. They will not be craftable. He will also still carry his crossbow.</li>
+<li data-line="25">-merged antiquity sheks (Partially):</li>
+<li data-line="26">-Esata and Seto now share a unique breastplate. Flying bull has a unique breastplate.</li>
+<li data-line="27">-Esata now has a unique shirt and head piece. Seto now has a unique headpiece.</li>
+<li data-line="28">-Bayan now has new gear.</li>
+<li data-line="29">-all gear non unique gear will be added to vendors and BP's for the shek.</li>
+<li data-line="30">-Removed some genesis shek armors (snugsnug created). Cleaned up the spawnable armors for sheks</li>
+<li data-line="31">-replaced shek guards (shek warriors) with hundred guardians in most stores</li>
+<li data-line="32">-place the warriors on gate guard duty as squad 2.</li>
+<li data-line="33">-adjusted the ai for shek gate guards. Now uses the new heal/disposal setup</li>
+<li data-line="34">-adjusted armor spawns across the shek squads.</li>
+<li data-line="35">-deleted hounds hash factory. had taken to much space for to little purpose</li>
+<li data-line="36">-merged macrotaz mud and clay</li>
+<li data-line="37">-overhauled mud town. cleaned up more of the swamp.</li>
+<li data-line="38">-added multiple material buildings to wood skimmer nests. making them have multiple resources to look out for. Reeds however will only be available in the swamp and the southern wetlands.</li>
+<li data-line="39">-mud town squads belong to the "swampers". they have unique loot and gear and are a tribal people. Eventually a one part quest world state will be added that adds a unique recruit. after recruiting the recruit the town will fall to a mysterious illness. D:</li>
+<li data-line="40">-overhauled Rot. Now uses a base template of lower tech. Still controlled by the hounds in many ways but now more a generic swamper town. swamper members there use leaves as armor (from cats civilian overhaul)</li>
+<li data-line="41">-overhauled the swamper shop</li>
+<li data-line="42">-moved the cannibal and other nest item (tents) into A new building group _nests thus cleaning up the camping area for players.</li>
+<li data-line="43">-Removed all tents intended for nest use from player research</li>
+<li data-line="44">-after recent merges some tent items were duplicated. Deleted all duplicate entries from tents.</li>
+<li data-line="45">-removed the shelter bed (metal piece laid over a camp bed) from player buildable structures. moved into nest items.</li>
+<li data-line="46">-deleted quarry a/b variants 2-4</li>
+<li data-line="47">-deleted the quarry tent as it did not work</li>
+<li data-line="48">-deleted the individual book keeping items like "Storage: Engineering Research" etc. With the new bookshelves they are already properly setup to receive all unique books AND research artifacts excluding AI cores.</li>
+<li data-line="49">-renamed Storage category to "Town - Storage" Thus pairing it with interiors and exterior furniture for easy swapping back and forth.</li>
+<li data-line="50">-Compressed the "buildings ancient" category into the "BUILDINGS - OUTPOST" category. I.e. Outpost size buildings are large or massive building types large enough to be an outpost on their own.</li>
+<li data-line="51">-Moved the pyramids to the buildings - outpost category.</li>
+<li data-line="52">-moved the ashdomes to buildings outpost category</li>
+<li data-line="53">-moved the big shack (deadcat/cannibal asset) to the buildings rebel category</li>
+<li data-line="54">-renamed buildings metal category to buildings rebel</li>
+<li data-line="55">-compressed all citadel, lab and outpost ramps into one sub category. (should automatically snap to the right kind per building)-removed limm from it's original spot, moved it inside shark</li>
+<li data-line="56">-renamed limm to twinblade's outcrop, a tiny POI inside shark now hosts all your illicit organic and cheap robotics needs</li>
+<li data-line="57">-merged CBT leisure Furniture</li>
+<li data-line="58">-moved leisure objects to Town interiors - Animated gaming /tables/stools sub category</li>
+<li data-line="59">-modified leisure objects to also be placeable outside</li>
+<li data-line="60">-overhauled shark from scratch adding in 100 new assets</li>
+<li data-line="61">-added coexistence with some swamp factions like swampers, hounds and blackshifters</li>
+<li data-line="62">-hemp is stackable to 5 now</li>
+<li data-line="63">-adjusted the new backpacks to all appear in their respective bench (backpack bench crafts).</li>
+<li data-line="64">-moved belt specific items for the player to the backpack bench as well.</li>
+<li data-line="65">-deleted the dilipidated ironside (carried the bag variant)</li>
+<li data-line="66">-deleted old ironsides i3 copper restored rig</li>
+<li data-line="67">-deleted dilipidated v2 frame</li>
+<li data-line="68">-deleted v2 frame bags restored and rusted</li>
+<li data-line="69">-deleted driven h2 ironside</li>
+<li data-line="70">-deleted functional ironside types. their frames will be lootable and craftable through vaults and their bosses.</li>
+<li data-line="71">-added enforcers to the error police Squads.</li>
+<li data-line="72">-added zagan back in. Zagan now hangs out around squin. You need 100k to unlock his recruitment dialogue (on you) and then you need 80+ relations with the SHEK to recruit him. Otherwise you're just an arrogant ass who thought you could challenge him.</li>
+<li data-line="73">-moved vault 1 to iron trail</li>
+<li data-line="74">-edited a new interior for vault 1</li>
+<li data-line="75">-made a quick and dirty balance pass on loot spawns</li>
+<li data-line="76">-added deimos to vault 1</li>
+<li data-line="77">-moved vault two to sinkuun. Replacing "new deadcat" with the vault.</li>
+<li data-line="78">-added kenji as a bar squad spawn in Vault 2.</li>
+<li data-line="79">-added more residents to the vault 2 resident list to reward players who seek out this vault.</li>
+<li data-line="80">-fixed a western hiver raid bug that @OmegaXII and @KySoto pointed out</li>
+<li data-line="81">-fixed a southern hiver raid bug in vains pass that was noticed while testing the western hiver raid bug.</li>
+<li data-line="82">-Reduced the chance of crossbows for slaver caravan guards as reported by @KySoto this should make crossbows a bit rarer for them to carry but still possible. added the tooth pick to their repitoire and removed the three shot ranger. They still have the ranger.</li>
+<li data-line="83">-fixed a flipped gate in mourn.</li>
+<li data-line="84">-fixed a interior issue with no lights in the hive justice spire.</li>
+<li data-line="85">-fixed the shinobi smuggler dialogue as pointed out by @Cirdanoth . the rank is now properly detected.</li>
+<li data-line="86">-fixed the weapons in the western hive exiles start. fixed the squad spawns as well. Modified the start to now put you at -10 with the western hive.</li>
+<li data-line="87">-adjusted the western hiver caravan material trader to now have 15k cats.</li>
+<li data-line="88">-updated the library ruin interior to use the new bookshelves.</li>
+<li data-line="89">-removed the physical cats spawn from the lost armoury ruins</li>
+<li data-line="90">-deleted and merged the ruin types of the armourys. The only one now in game is "Lost Armoury"\</li>
+<li data-line="91">-adjusted the weights of crab limbs and their quality on crab raiders as noticed by @Keywee They should spawn rarer on most of the crab raiders excluding the crab raider captains. The quality chance has been lowered across the board. Also added custom stats to the crab raiders and captains. Making them tankier and slower. Adjusted the weapon spawns to now almost fully use the crab maul and the crab vairant of the man slayer.</li>
+<li data-line="92">-overhauled the grid. added more gates and added old machine spawns to them.</li>
+<li data-line="93">-added 5 post ancient workshops which now spawn a wealth of engineering research</li>
+<li data-line="94">-added skeleton legion patrols to the grid.</li>
+<li data-line="95">-added enforcers to the gates</li>
+<li data-line="96">-changed the spire name from "the spire" to "Spire"</li>
+<li data-line="97">-changed the town of spire to now originally be held by old machines</li>
+<li data-line="98">-added marbas the insane to the spire, he will play a key role in the future for the machinists to take over the town</li>
+<li data-line="99">-added more homeless spawned ironsides to the grid. Recruitable and not.</li>
+<li data-line="100">-fixed the traders guild not having any cats to trade with or buy player items with.</li>
+<li data-line="101">-compressed the ancient tech lab into the "lab". will now serve as a template for ruins</li>
+<li data-line="102">-cleaned up some left over towns (again) from cheaters run.</li>
+<li data-line="103">-RE-rebalanced All Backpacks. Smaller bags now provide benefits, or no negatives (gear dependent), Medium Size Bags have slight negatives, large backpacks even more so and "trader" bags or otherwise Massive bags generally have huge penalties that make them a high price for combat.</li>
+<li data-line="104">-Animal bags now have obvious bonuses. Smaller animals will get 100% weight reduction but they also can barely hold enough food. Mid animals (goats/anetelopes) are fast but only get a 90% reduction in weight. Bulls/Garru/Skimmers all get the same exact bag bonuses, so you can pick your favorite pack animal. Cage Beasts Now get 100% reduction and have a larger inventory and stack 20x20.</li>
+<li data-line="105">-The changes to all bags will push players out of their comfort zone, paired with the eventual Speed changes in the Genesis mod for all races this should push players to use "trade" animals more and "trade" bags less unless they can overcompensate for the detriments of the new stats.</li>
+<li data-line="106">-Thanks to @DreXav for the bug reports on the bags beta</li>
+<li data-line="107">-Thanks to @Ranger|.\ for the updated info on the bags.</li>
+</ul></div><div><p>BAGS: <a rel="noopener" class="external-link" href="https://www.guilded.gg/Genesis/groups/dQGnZ5P3/channels/3334141c-c6a2-4eb1-85af-d163c44a6010/docs/374244" target="_blank">https://www.guilded.gg/Genesis/groups/dQGnZ5P3/channels/3334141c-c6a2-4eb1-85af-d163c44a6010/docs/374244</a></p></div><div><p>Doc</p></div><div><p><img alt="Atlas's avatar" src="https://cdn.gilcdn.com/UserAvatar/354bfb05f3e6015b68da7fc9eb9052d6-Small.webp?w=80&amp;h=80&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div><p>Bags</p></div><div><p>C- CRAFT</p></div><div><p>NC - NO CRAFT</p></div><div><p>B - Buyable</p></div><div><p>...</p></div><div><p><img src="https://cdn.gilcdn.com/TeamAvatar/5312df1b7b07e9abc6781e5f6e3817be-Large.png?w=450&amp;h=450&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div><p>Genesis • Posted in <a href="?query=tag:Genesis" class="tag" target="_blank" rel="noopener">#Genesis</a> FAQ &amp; Changelogs</p></div><div><p><img alt="Kenshi group avatar" src="https://cdn.gilcdn.com/GroupAvatar/6a88e1ab142e9e47840ef37d8a260c79-Small.png?w=126&amp;h=126&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div><ul>
+<li data-line="0">-fixed the black texture overlay with the topboard wood as reported by @Bugivugic and @Kifyi</li>
+<li data-line="1">-fixed the sex issue as pointed out by @Lam with lady aguri, shes now set as 100% female</li>
+<li data-line="2">-fixed meat lord stats as reported by @looksharpbesharp</li>
+<li data-line="3">-added a named variable to the citizens from cats overhaul as reported by @Kifyi</li>
+<li data-line="4">-merged randiant primordial hivers by Shiroho:</li>
+<li data-line="5">-added the new races to mud town due to their tribal nature. Added some new hiver setups using the black carapace set. this will fall into lore related to the southern and western hivers.</li>
+<li data-line="6">-mud town is now slightly more defended with new guard setups.</li>
+<li data-line="7">-moved ark a touch south to avoid navmesh issues from where it currently is. It's not situated in one chunk instead of 4.</li>
+<li data-line="8">-filled out a southern hive village that had no buildings as reported by @Kifyi</li>
+<li data-line="9">-deleted bone dog alphas</li>
+<li data-line="10">-added hard capped stats around 25 to all non alpha dogs</li>
+<li data-line="11">-removed alphas from pack squad variants. Making alphas only native to most den types for specific dogs</li>
+<li data-line="12">-fixed the upgrade path for the defense dummy as pointed out by @Tenoz</li>
+<li data-line="13">-fixed the upgrade path for friendly fire training</li>
+<li data-line="14">-adjusted the wood skimmer to carry less loot</li>
+<li data-line="15">-adjusted the wood spider to carry less loot</li>
+<li data-line="16">-removed the worldstate from nomar as pointed out by @dreadarm it's bugged and makes the town spawn as shek</li>
+<li data-line="17">-changed vains pass to western hive, addded in new buildings to reflect that.</li>
+<li data-line="18">-fixed the worldstates on the hive dispora bandits as reported by @Ranger|.\</li>
+<li data-line="19">-moved one of the dreg gatherer villages down into southern dreg</li>
+<li data-line="20">-combined one dreg gatherer village into the settled nomad village.</li>
+<li data-line="21">-expanded the settled nomad village to include more funtionality</li>
+<li data-line="22">-tweaked cannibals again to spawn with even less of a chance at armor.</li>
+<li data-line="23">-replaced old village in cannibal plains with anbandoned village type ruin</li>
+<li data-line="24">-added another abandoned village type ruin to the cannibal plains coast.</li>
+<li data-line="25">-added new default ruined building spawns to all cannibal towns in darkfinger instead of populating ruins</li>
+<li data-line="26">-added a abandoned farm generic ruin to sinkuun</li>
+<li data-line="27">-replaced some spawned building types for the towns in bast with ruined nest versions. Meaning all buildings now spawn a small amount of loot</li>
+<li data-line="28">-added an abandoned farm to the great desert in the north western area to flesh out the desert a bit more</li>
+<li data-line="29">-added a lost library to berserker country</li>
+<li data-line="30">-added two labs, one library and one abandoned waystation to the floodlands, added a lab ruin and a library ruin to the floodlands as well</li>
+<li data-line="31">-added an abandoned farm to the hidden forest</li>
+<li data-line="32">-added an abandoned waystation to skimsands</li>
+<li data-line="33">-added an abandoned farm to heng</li>
+<li data-line="34">-removed regret</li>
+<li data-line="35">-added a lab ruin in place of regret</li>
+<li data-line="36">-added a deadland workshop to iron valley</li>
+<li data-line="37">-added two ruined holy outposts to HN territory. they'll play a part in the HN world states at a later date</li>
+<li data-line="38">-rebuilt ironhaven, pulled it closer to the borderzone, added back in the limb vendors</li>
+<li data-line="39">-added a abandoned village and abandoned farm to storm gap coast</li>
+<li data-line="40">-added ruined waystation loot to dust king tower, fixed the navmesh issues, lowered the assets spawned in</li>
+<li data-line="41">-tweaked the interiors and interior spawns of the ruins of venge.</li>
+<li data-line="42">-add two destroyed labs to venge.</li>
+<li data-line="43">-tweaked the inventory of ark to now spawn with high tech loot</li>
+<li data-line="44">-added the ancient lab and ruined farm back to the burning forest.</li>
+<li data-line="45">-added two armouries and one library to stobes gamble</li>
+<li data-line="46">-added a lost library in the crags</li>
+<li data-line="47">-changed the price of ancient military documents to 10k up from 1k</li>
+<li data-line="48">-adjusted the spawns across the game to make them incredibly rare except in lost libraries.</li>
+<li data-line="49">-changed the vendor list of the iron hq. it now spawns with lab loot.</li>
+<li data-line="50">-deleted skimmer nymphs</li>
+<li data-line="51">-changed skimmers to spawn much MUCH smaller as babies.</li>
+<li data-line="52">-updated the base bolt box to be 6 wide to cover the issue of harpoon bundles not fitting as reported by @Terak</li>
+<li data-line="53">-every bolt box and subsequent storage type will be additive of the first base model's stats. I.e. bolt box one is 25 stack multiplier/10 height/6 width, second level is 50 stack/20 height/12 width, third level is 75 stack/30 height/18 width</li>
+<li data-line="54">-deleted twinblades lockup</li>
+<li data-line="55">-added the lost lab outpost back in the swamps</li>
+<li data-line="56">-moved the infested lab more north wards.</li>
+<li data-line="57">-merged mini fishmen</li>
+<li data-line="58">-finished the addition of the southern ruin sets first pass</li>
+<li data-line="59">-deleted dead hive queen.</li>
+<li data-line="60">-deleted cyborg dead hive worker</li>
+<li data-line="61">-deleted cyborg hive prince</li>
+<li data-line="62">-deleted the cyborg south hive drone</li>
+<li data-line="63">-deleted cyborg south hive soldier</li>
+<li data-line="64">-deleted cyborg west drone</li>
+<li data-line="65">-removed all faces plus faces from all races as playable. Theyre still spawnable throughout the world and will be reduced down to specific factions over time as will hair but now they no longer clog up the player menu</li>
+</ul></div><div><p>----a secondary unlock mod will be made and included in the nexus version to unlock everything</p></div><div><p>-reduced the amount of races playable down to mk1 skeletons and separated hive races down again.</p></div><div><ul>
+<li data-line="0">-fixed an issue with upgrading gate 4 to gate 5's as pointed out by @Tenoz</li>
+<li data-line="1">-merged 2pn8's faction shields expanded. samurai, shek and thieves guild now spawn with shirt variants that are wearable by npc's</li>
+<li data-line="2">-edited legendary quest owner kratch to now have a secondary building in tengus palace. he will wait there (for now will be a 24h shop), other faction legendaries will follow suit with new buildings and ai when the towns they spawn in are done.</li>
+</ul></div><div><p><a rel="noopener" class="external-link" href="https://www.guilded.gg/Genesis/groups/dQGnZ5P3/channels/3334141c-c6a2-4eb1-85af-d163c44a6010/docs/380450" target="_blank">https://www.guilded.gg/Genesis/groups/dQGnZ5P3/channels/3334141c-c6a2-4eb1-85af-d163c44a6010/docs/380450</a></p></div><div><p>Doc</p></div><div><p><img alt="Atlas's avatar" src="https://cdn.gilcdn.com/UserAvatar/354bfb05f3e6015b68da7fc9eb9052d6-Small.webp?w=80&amp;h=80&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div><p>Crossbow Changes</p></div><div><p>--Crossbows should follow this theme:</p></div><div><p>-Power : Old World Mk1/Mk2/Harpoon</p></div><div><p>-Accuracy : Areblast/Eagles Cross/jezzazil Bow</p></div><div><p>...</p></div><div><p><img src="https://cdn.gilcdn.com/TeamAvatar/5312df1b7b07e9abc6781e5f6e3817be-Large.png?w=450&amp;h=450&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div><p>Genesis • Posted in <a href="?query=tag:Genesis" class="tag" target="_blank" rel="noopener">#Genesis</a> FAQ &amp; Changelogs</p></div><div><p><img alt="Kenshi group avatar" src="https://cdn.gilcdn.com/GroupAvatar/6a88e1ab142e9e47840ef37d8a260c79-Small.png?w=126&amp;h=126&amp;Expires=1713501547&amp;Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9jZG4uZ2lsY2RuLmNvbS8qIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNzEzNTAxNTQ3fSwiSXBBZGRyZXNzIjp7IkFXUzpTb3VyY2VJcCI6IjI0LjE5OS4xNTIuMjM4In19fV19&amp;Signature=D75IeuXQCMVedfF8AThdDs94pQKNAmkGMXojD3CgcH-tO-nMJW%7EDvpNX8xhBy-xWe47KcvFXadVojfgk5uyVCQkgvEn2zWOz3V8pOJVTFUkGBdiY8cW5g8daP%7EIoueun5tLHv-5kjWifcl7BkPbB-7WaRR0rgNqiJEKxMV1QPIe3wmhFMmx%7EmOTvvdShrR2OVIjLjVx29Qw4J4ZFg7cOq9i8XE80XvVVe37LHVEqmtyv%7ExSGiXEh3vtrTGevbBbhDbJus5p%7E-eVBOwf8inaEHORQAmBeIZIeFMxx0mMFGg2uBWHcl80JBCHvTmfmgcORZv-m58-b3GAfMFULhCUzgA__&amp;Key-Pair-Id=K1FFKFZRWAZSB" referrerpolicy="no-referrer"></p></div><div><ul>
+<li data-line="0">-deleted the temporary police station from the scraphouse.</li>
+<li data-line="1">-fixed an issue with the grid gate as reported by @Terak</li>
+<li data-line="2">-removed a town from the outlands that had no purpose or town marker as reported by @𝓢𝓷𝓸𝔀 ℬ𝓪𝓵𝓵</li>
+<li data-line="3">-reworked carsi to fix FPS issues and foliage spawn issues as reported by @Krivasran</li>
+<li data-line="4">-fixed a dialogue bug with surgeons when traded as pointed out by @HorHorHor</li>
+<li data-line="5">-added more animal races to desert sabre</li>
+<li data-line="6">-tweaked the slave dialogue. it should now properly detect some characters by race and all other slave prices have been tapered at a flat 200 cats.</li>
+<li data-line="7">-updated confusion start to be less meme-y and more clear as per suggestion from @HorHorHor and voted on by the community</li>
+<li data-line="8">-merged borons HN assets, merged snugsnugs building variations.</li>
+<li data-line="9">-rebuilt the HN and templated the interiors for ease of modification later down the line</li>
+<li data-line="10">-attached some buildings to share interiors from borons HN additions. i.e. two different buildings (look different) can now use and share interiors.</li>
+<li data-line="11">-fixed a bug in the floodlands ancient lab where navmesh generation would break due to being split in half by zones thanks to @Slug</li>
+<li data-line="12">-fixed a bug with the strong starving bandits. level 40's are meant to spawn after all 3 borderzone bosses are dead. they were set to spawn while they are alive thanks to @Aesthetic</li>
+<li data-line="13">-fixed an overspawn issue as indicated by @Regalia in the hub bar. Bar now refreshes every 12 hours and only holds up to 30 items at a time.</li>
+<li data-line="14">-fixed some polish issues in vains pass as noted by @Regalia</li>
+<li data-line="15">-fixed an issue with the sacred guard spawning as women. dark beasts 😠</li>
+<li data-line="16">-overhauled pagunder, needs polish</li>
+<li data-line="17">-Overhauled nomar, added guard tower along with barracks and an inn closer to the road side. should help facilitate traveling squads</li>
+<li data-line="18">-overhauled dustirmiril. added an inn, farm shop, moved it slightly away from the valley</li>
+<li data-line="19">-overhauled reduna. likely needs another polish pass</li>
+</ul></div><div><p>^ Released on Steam/Nexus 7/5/2023 ^</p></div><div><ul>
+<li data-line="0">-fixed an issue with cattrinas Cozy chairs. swapped max operators to 1. should fix duplicated sitting positions</li>
+<li data-line="1">-changed knifes combat skills to be 20 max per skill instead of 25. thus less than 75, which should make them recruitable.</li>
+<li data-line="2">-added water avoidance of 3 for cyber hives (TS variants).</li>
+<li data-line="3">-added new graveyard wolves to the canine plate as @Regalia had described in their bug report</li>
+<li data-line="4">-Changed the swampers travel store in shark to now be inside the L-house thanks to a bug report from @Regalia</li>
+<li data-line="5">-rotated a bar in grind stone near the north wall to avoid navmesh issues as reported by @Royal</li>
+<li data-line="6">-removed the cannibals properly from the swamp</li>
+<li data-line="7">-added authentic skeleton repair kit to shinobi guards for mongrel. fixing a bug reported by @Regalia</li>
+<li data-line="8">-Fixed nomad bar camp according to a bug report from @Regalia modified the building type for settled nomads from swamp round 1 to swamp round 2</li>
+<li data-line="9">-changed cannibals and skavs to now eat raw fish, foul meat and raw meat from a suggestion from @Alkimos</li>
+<li data-line="10">-deleted the floating books from a bug report by @Costeer</li>
+<li data-line="11">-thanks to @Regalia changed the slavers in HN to be men led</li>
+<li data-line="12">-cloned the slavemaster squad and renamed it to Holy Workmaster,</li>
+<li data-line="13">-cloned the slaver to be called work master,</li>
+<li data-line="14">-duplicated the Holy servant clothing, armor and weapons to the new Workmaster</li>
+<li data-line="15">-cleaned up a bug with the ILAM stats according to a bug report from @Regalia</li>
+<li data-line="16">-added new workmaster to rebirth to ensure slaves are used and worked throughout the day (including the player).</li>
+<li data-line="17">-added mines back into rebirtht to balance out active spots of usage for slaves and the player. Should fix AI issues in rebirth.</li>
+<li data-line="18">-adjusted the thiefs guild fence and smuggler. Reworked conditions to now properly reflect your level. you will still need to be level 2 or above to trade with them, however they both now say as much.</li>
+<li data-line="19">-added thieves knapsacks and empty vendors to the thieves guild fence and smuggler.</li>
+<li data-line="20">-though temporary, fixed the arbiter dialogue and duplication glitch.</li>
+<li data-line="21">-though temporary added the wanderer start member to the leader for the ironside squad.</li>
+<li data-line="22">-made some tweaks to deadcat thus it should fix the deadcat cannibal issue of not being able to get to the boss</li>
+<li data-line="23">-fixed an issue according to a bug report from @Regalia</li>
+<li data-line="24">-fixed a bug with spawns in tadpole</li>
+<li data-line="25">-made small animal feeders only placeable outside.</li>
+<li data-line="26">-fixed an issue with vains pass walls. adjusted the north eastern battlements to face less inwards and thus pushing them across one zone change instead of four</li>
+<li data-line="27">-moved vault 3 to the left more to pull it off the zone lines it was sitting on. it should prevent it from having broken navmesh</li>
+<li data-line="28">-added an ai package to the rusted v1 homeless squad as reported by @Lato it didnt have an ai package making them not react to attacks and be stationary.</li>
+<li data-line="29">-added a outpost 1 back to the scout post in hidden forest.</li>
+<li data-line="30">-fixed an incomplete holy military post in okrans gulf thanks to @Regalia</li>
+<li data-line="31">-Fixed an incomplete library in leviathans coast with a bug report from regalia</li>
+<li data-line="32">-fixed overspawning with albino landbats they were meant to be rare</li>
+<li data-line="33">-made a balance pass at the dust bandit cut weapons</li>
+<li data-line="34">-made a balance pass on scav weapons</li>
+<li data-line="35">-attemtpted to fix HN thieves guild</li>
+<li data-line="36">-fixed hn color of the sentinels</li>
+<li data-line="37">-added doctor chung to the swamper spawn list</li>
+<li data-line="38">-added oron to the shady bar recruits list. Allowing them to spawn everywhere from swamps to the UC, Most commonly in Tech Hunter Cities</li>
+<li data-line="39">-fixed a bug with library ruins spawning with full but empty buildings as reported by @Mihokyo</li>
+<li data-line="40">-added trade signs to the outside of large holy house.</li>
+<li data-line="41">-added a name to the building holy trade goods.</li>
+<li data-line="42">-added hemp buildings to illegal buildings for HN</li>
+<li data-line="43">-added hemp items to illegal goods and forbidden goods of the HN</li>
+<li data-line="44">-added various packages to slaves regarding escapes and slavery as reported by @Regalia this change will be temporary until i start working on dialogue.</li>
+<li data-line="45">-attempted a fix on hivers spawning as thieves guild members in the HN</li>
+<li data-line="46">-fixed eye socket furniture bugs</li>
+<li data-line="47">-updated racial restrictions for hiver armor.</li>
+<li data-line="48">-fixed a bug on how stubs spawns and what he spawns as as reported by @imObvioslycrazy</li>
+<li data-line="49">-changed slave lord rens group speed to no change status as per bug report from Para</li>
+<li data-line="50">-added a secondary path to VP for npcs to traverse into and out of the city as per suggestion from @imObvioslycrazy</li>
+<li data-line="51">-fixed a visual bug with the Z9 race per a report from @Spriteanon</li>
+<li data-line="52">-fixed a interior bug as reported by @Mihokyo for the bar1 squad. players should no longer get trapped between beds</li>
+<li data-line="53">-nomads and settlers are now allies and should defend each other. while only a temporary fix it should allow them to not masscre each other as reported by @Regalia</li>
+<li data-line="54">-lowered the amount of security spiders in lost amouries as per a report from Para</li>
+<li data-line="55">-added a new stat set to outlaw farmers as per @Regalia bug report. hovering around 5-10 combat stats and 50 ish in non combat.</li>
+<li data-line="56">-added the merc armor set from cat's mod properly to the vendor list for blackdog hq per a report from @Geodarian</li>
+<li data-line="57">-made some detail adjustments to vainspass. a hivers house was blocked off with the last change, rectified by pulling the house ramp onto the new road</li>
+<li data-line="58">-changed hive factories to now have a hive trader that sells armor and weapons.</li>
+<li data-line="59">-adjusted some foliage in the swamps to help with navmesh generation</li>
+<li data-line="60">-locked some hiver squads in vains pass so they don't grow exponentially with player settings</li>
+</ul></div><div><p>Back from break 11/30</p></div><div><ul>
+<li data-line="0">merged unique animal hides and skins into "animal" hide. So beyond trophy items players will not have multiple crafting stations to work through. all animals will have "animal skin" as a default item. (excluding some obvious ones, like bugs)</li>
+<li data-line="1">added mud pits as a resource to most forested lands. Swamps, hidden forest, the burning forest, wetlands, (early game material)</li>
+<li data-line="2">added moth borers as a resource to most forested lands. Swamps, hidden forest, the burning forest, wetlands (early game crossbow crafting)</li>
+<li data-line="3">added termite mounds to most forested lands. Swamps, hidden forest, the burning forest, wetlands</li>
+</ul></div><div><p>Merged Mods:</p></div><div><ul>
+<li data-line="0"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2371344547" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2371344547</a></li>
+<li data-line="1"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2456515727" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2456515727</a></li>
+<li data-line="2"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2371365498" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2371365498</a></li>
+<li data-line="3"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2390756295" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2390756295</a></li>
+<li data-line="4"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2223867724" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2223867724</a></li>
+<li data-line="5"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2457830380" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2457830380</a></li>
+<li data-line="6">(New races hidden)</li>
+<li data-line="7"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1489675661" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=1489675661</a></li>
+<li data-line="8"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1501880679" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=1501880679</a></li>
+<li data-line="9"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1902172624" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=1902172624</a></li>
+<li data-line="10"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2355540931" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2355540931</a></li>
+<li data-line="11"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2162904332" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2162904332</a></li>
+<li data-line="12"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2467997525" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2467997525</a></li>
+<li data-line="13">(only the buildings)</li>
+<li data-line="14"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2425159105" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2425159105</a></li>
+<li data-line="15"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2348103277" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2348103277</a></li>
+<li data-line="16"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1870773796" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=1870773796</a></li>
+<li data-line="17"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2332647932" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2332647932</a></li>
+<li data-line="18"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2321974486" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2321974486</a></li>
+<li data-line="19"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2381564824" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2381564824</a></li>
+<li data-line="20"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1671502407" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=1671502407</a></li>
+<li data-line="21"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2421898739" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2421898739</a></li>
+<li data-line="22"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=1741331999" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=1741331999</a></li>
+<li data-line="23"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2412497702" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2412497702</a></li>
+<li data-line="24"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2549561183" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2549561183</a></li>
+<li data-line="25"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2452035761" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2452035761</a></li>
+<li data-line="26"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2495652142" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2495652142</a></li>
+<li data-line="27"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2508412096" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2508412096</a></li>
+<li data-line="28"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2543174982" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2543174982</a></li>
+<li data-line="29"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2802266634" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2802266634</a></li>
+<li data-line="30"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2817703165" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2817703165</a></li>
+<li data-line="31"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2797192806" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2797192806</a></li>
+<li data-line="32"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2117877487" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2117877487</a></li>
+<li data-line="33"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2861359197" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2861359197</a></li>
+<li data-line="34"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2846933782" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2846933782</a></li>
+<li data-line="35"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2822767279" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2822767279</a></li>
+<li data-line="36"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2875287426" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2875287426</a></li>
+<li data-line="37"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2550832666" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2550832666</a></li>
+<li data-line="38"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2910649298" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2910649298</a></li>
+<li data-line="39"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2545328388" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2545328388</a></li>
+<li data-line="40"><a rel="noopener" class="external-link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=2655761977" target="_blank">https://steamcommunity.com/sharedfiles/filedetails/?id=2655761977</a></li>
+</ul></div><div class="mod-footer"></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="graph-view-wrapper"><div class="sidebar-section-header">Interactive Graph</div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="01-projects-&amp;-wikis\kenshi\genesis\genesis-changelogs\genesis-9.0-changelog.html#The Tech Overhaul"><div class="tree-item-contents heading-link" heading-name="The Tech Overhaul"><span class="tree-item-title">The Tech Overhaul</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

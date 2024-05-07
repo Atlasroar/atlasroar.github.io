@@ -2,6 +2,7 @@
 date: 2024-04-20T11:50
 tags: 
 cssclasses: []
+icon: BoBxLibrary
 ---
 [[Genesis]]
 

@@ -12,21 +12,16 @@ Update Timeline
 
 # Version 9.0: Tech & Architecture
 
-Total Tech tree overhaul.
+## Total Tech tree overhaul.
 
-Major city redesign to reflect the changes of tech.
+- Major city redesign to reflect the changes of tech.
+- Cities will be designed with the new tech tree design in mind.
+- Traveling to a city should give players a quick glance of the cities wealth, based on the buildings the city uses.
+## Vendor list overhaul
 
-Cities will be designed with the new tech tree design in mind.
-
-Traveling to a city should give players a quick glance of the cities wealth, based on the buildings the city uses.
-
-Vendor list overhaul
-
-This will happen as the tech update progress through it's phases. Vendor lists will be redesigned from scratch to ensure that traveling for trade is viable and worthy endeavor.
-
-Looting balances and tweaks
-
-The vendor lists tweaks will include loot you can find in the world and more importantly, Where you can find it.
+> This will happen as the tech update progress through it's phases. Vendor lists will be redesigned from scratch to ensure that traveling for trade is viable and worthy endeavor.
+- Looting balances and tweaks
+> The vendor lists tweaks will include loot you can find in the world and more importantly, Where you can find it.
 
 # Version 10.0: Dialogue & AI
 

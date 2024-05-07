@@ -4,29 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "d64c3317493c8097",
+        "id": "4a0b65bd19084dcd",
         "type": "tabs",
         "children": [
           {
-            "id": "dca5fc7c5dd6286b",
+            "id": "eb952e729342277d",
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00 - Home/00 - Home.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              },
               "pinned": true
             }
-          },
-          {
-            "id": "f673185c0a48e25f",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "00 - Home/00 - Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,6 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "00 - Home/00 - Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "00 - Home/00 - Home.md"
+              }
             }
           },
           {
@@ -190,57 +190,58 @@
       "homepage:Open homepage": false,
       "vscode-editor:Create Code File": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "webpage-html-export:Export Vault to HTML": false
     }
   },
-  "active": "f673185c0a48e25f",
+  "active": "eb952e729342277d",
   "lastOpenFiles": [
-    "index.html",
-    "00 - Home/00 - Home.md",
-    "00 - Home/META/Tasks Library.md",
-    "00 - Home/META/META.md",
-    "00 - Home/META/Tag Library.md",
-    "00 - Home/META/Callout Library.md",
-    "00 - Home/META",
-    "00 - Home",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/PreBoneReorder.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/PostBoneReorder.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatServer-gr-Client.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatClientsideAdditional.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatClientMissingModule.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatClient-gr-Server.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggdrasilRoot.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggaShoot_small1.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggaShoot3.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggaShoot2.png",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/vegetation-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/toc.yml",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/overview.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/location-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/status-effects/toc.yml",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/status-effects/overview.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/status-effects/status-effect-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/rpc/rpc-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/shader-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/prefab-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/mesh-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/material-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/pieces/piece-table-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/character-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/pieces/piece-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/toc.yml",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/overview.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/recipe-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/item-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/input/input-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/gui/sprite-list.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/tutorials/zones.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/tutorials/undoqueue.md",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/pieces",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/locations",
-    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/items",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/hybrid_stone_mine_(tech).html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/hybrid_stone_mine.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/hungry_bandit_leader.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/hungry_bandit.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/hundred_guardian.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/hundred_guardian(1).html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/human_teeth.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/human_skin_suit.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/human_skin.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/human_mercenary.html",
+    "01-projects-&-wikis/kenshi/kenshi-wiki/kenshi-wiki-template/human.html",
+    "lib/media/valhallagothic.png",
+    "lib/media/techtree.png",
+    "lib/media/steamgenesistitle.png",
+    "lib/media/skeleton.png",
+    "lib/media/leviathan.png",
+    "lib/media/lantern.png",
+    "lib/media/kenshi_logo-300x194.png",
+    "lib/media/hive.png",
+    "lib/media/flint.png",
+    "lib/media/copper.png",
+    "99 - Templates/(TEMPLATE) Unique.md",
+    "99 - Templates/(TEMPLATE) INFOBOX.md",
+    "99 - Templates/(TEMPLATE) Daily (Vanilla).md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Kenshi Wiki.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Zones.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - World_Elements.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - World_Data.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - WIP.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Website_Icons.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Weapons.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Watercooler.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Videos.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Vendors.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - User_Photos.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - User_Interfaces.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - United_Heroes_League.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - United_Cities.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Unique.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - UI_Screenshots.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Traders_Guild.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Traders.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Technology.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Superbosses.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Strategies.md",
+    "01 - Projects & Wikis/Kenshi/Kenshi Wiki/Category - Storage.md",
     "01 - Projects & Wikis/Kenshi/Genesis/Development/Tech Tree Canvas.canvas",
     "01 - Notes/Atomic Notes/Veloren Purpose Concept Map.canvas",
     "Untitled.canvas",
