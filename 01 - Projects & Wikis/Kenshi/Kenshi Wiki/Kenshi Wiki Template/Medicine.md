@@ -1,0 +1,1 @@
+1.  REDIRECT [Medicine (Tech)](Medicine_(Tech).md "wikilink")

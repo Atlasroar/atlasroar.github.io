@@ -1,0 +1,1 @@
+1.  REDIRECT [](Weather_Effects.md#Acid_Rain)__STATICREDIRECT__

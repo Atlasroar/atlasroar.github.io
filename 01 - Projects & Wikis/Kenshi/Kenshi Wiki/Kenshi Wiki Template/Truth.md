@@ -1,0 +1,1 @@
+1.  REDIRECT [Truth Two](Truth_Two.md "wikilink")

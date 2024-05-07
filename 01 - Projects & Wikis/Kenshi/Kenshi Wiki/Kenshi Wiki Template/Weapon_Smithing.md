@@ -1,0 +1,1 @@
+1.  REDIRECT [Weapon Smithing (Tech)](Weapon_Smithing_(Tech).md "wikilink")

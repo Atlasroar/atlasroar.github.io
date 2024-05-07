@@ -1,0 +1,1 @@
+1.  REDIRECT [Desert Cooking (Tech)](Desert_Cooking_(Tech).md "wikilink")

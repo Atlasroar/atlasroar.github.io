@@ -1,0 +1,1 @@
+1.  REDIRECT [Independent Bar](Independent_Bar.md "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [Storage: Stones](Storage:_Stones "wikilink")

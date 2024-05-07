@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "BoBxsWrench",
+      "BoBxsPlanet",
+      "BoBxsHome",
+      "BoBxCodeBlock",
+      "BoBxsBulb"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [
+      {
+        "rule": "changelog",
+        "icon": "BoBxListCheck",
+        "for": "everything",
+        "order": 0,
+        "useFilePath": true
+      }
+    ],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": true,
+    "iconInFrontmatterEnabled": true,
+    "iconInFrontmatterFieldName": "icon",
+    "iconColorInFrontmatterFieldName": "iconColor",
+    "iconsBackgroundCheckEnabled": true,
+    "iconsInNotesEnabled": true,
+    "iconsInLinksEnabled": true,
+    "iconIdentifier": ":",
+    "debugMode": false
+  },
+  "09 - Media": "BoBxsImageAlt",
+  "01 - Notes": "BoBxsBulb",
+  "00 - Home": "BoBxsHome",
+  "00 - Home/META": "BoBxCodeBlock",
+  "00 - Home/META/Callout Library.md": "BoBxLibrary",
+  "00 - Home/META/Tag Library.md": "BoBxLibrary",
+  "00 - Home/META/Tasks Library.md": "BoBxLibrary",
+  "03 - Writing": "BoBxsPencil",
+  "03 - Writing/Scripts": "BoBxsNotepad",
+  "01 - Projects & Wikis": "BoBxSearchAlt",
+  "01 - Projects & Wikis/Kenshi/Genesis": "BoBxsPlanet",
+  "01 - Projects & Wikis/Kenshi/Kenshi Modding Wiki": "BoBxsWrench",
+  "01 - Projects & Wikis/Kenshi/Kenshi Wiki": "BoBxsShield",
+  "01 - Projects & Wikis/Kenshi/Kenshi Wiki/01 - Category List.md": "BoBxLibrary",
+  "01 - Projects & Wikis/Valheim/Valheim Wiki": "BoBxsCloudRain"
+}

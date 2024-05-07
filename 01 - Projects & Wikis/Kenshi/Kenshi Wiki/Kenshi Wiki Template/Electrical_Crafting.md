@@ -1,0 +1,1 @@
+1.  REDIRECT [](Electrical_Crafting_(Tech).md)

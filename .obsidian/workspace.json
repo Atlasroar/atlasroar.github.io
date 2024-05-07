@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "179b07afb47ae646",
+    "type": "split",
+    "children": [
+      {
+        "id": "d64c3317493c8097",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dca5fc7c5dd6286b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "empty",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "f673185c0a48e25f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f44a95628062efcc",
+    "type": "split",
+    "children": [
+      {
+        "id": "0df6948373c94c0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7a550f419bf1594",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e9b853509e0729c3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "2c0127e090832e25",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323
+  },
+  "right": {
+    "id": "744c26550feee1b9",
+    "type": "split",
+    "children": [
+      {
+        "id": "12db6f5277df1146",
+        "type": "tabs",
+        "dimension": 34.51923076923077,
+        "children": [
+          {
+            "id": "a6515136486aa812",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "984a8389991ddbdd",
+        "type": "tabs",
+        "dimension": 65.48076923076923,
+        "children": [
+          {
+            "id": "881af733d94f58d2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "720e6eca3007c99b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "19d05611404634f0",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a896a175f2f7880a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "89543bfceaef7792",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb2fddfe63f8d590",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 385
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "daily-notes:Open today's daily note": false,
+      "zk-prefixer:Create new unique note": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false,
+      "markdown-importer:Open format converter": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "homepage:Open homepage": false,
+      "vscode-editor:Create Code File": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "f673185c0a48e25f",
+  "lastOpenFiles": [
+    "00 - Home/00 - Home.md",
+    "00 - Home/META/Tasks Library.md",
+    "00 - Home/META/META.md",
+    "00 - Home/META/Tag Library.md",
+    "00 - Home/META/Callout Library.md",
+    "00 - Home/META",
+    "00 - Home",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/PreBoneReorder.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/PostBoneReorder.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatServer-gr-Client.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatClientsideAdditional.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatClientMissingModule.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils/NetworkCompatClient-gr-Server.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggdrasilRoot.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggaShoot_small1.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggaShoot3.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs/YggaShoot2.png",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/vegetation-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/toc.yml",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/overview.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/zones/location-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/status-effects/toc.yml",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/status-effects/overview.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/status-effects/status-effect-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/rpc/rpc-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/shader-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/prefab-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/mesh-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/material-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/pieces/piece-table-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/prefabs/character-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/pieces/piece-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/toc.yml",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/overview.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/recipe-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/objects/item-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/input/input-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/data/gui/sprite-list.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/tutorials/zones.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/tutorials/undoqueue.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/tutorials/status-effects.md",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/utils",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/prefabs",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/pieces",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/locations",
+    "01 - Projects & Wikis/Valheim/Valheim Wiki/Documentation/images/items",
+    "01 - Projects & Wikis/Kenshi/Genesis/Development/Tech Tree Canvas.canvas",
+    "01 - Notes/Atomic Notes/Veloren Purpose Concept Map.canvas",
+    "Untitled.canvas",
+    "01 - Notes/Atomic Notes/Veloren Design Doc.canvas",
+    "Untitled 1.canvas"
+  ]
+}

@@ -1,0 +1,1 @@
+1.  REDIRECT [Katana (Weapon)](Katana.md "wikilink")

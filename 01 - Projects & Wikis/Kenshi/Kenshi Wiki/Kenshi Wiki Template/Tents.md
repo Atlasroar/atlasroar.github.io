@@ -1,0 +1,1 @@
+1.  REDIRECT [Camping](Camping.md "wikilink")

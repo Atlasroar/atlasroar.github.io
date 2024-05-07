@@ -1,0 +1,1 @@
+1.  REDIRECT [Cooking](Cooking.md "wikilink")

@@ -1,0 +1,52 @@
+---
+date: 2024-04-18T19:43
+tags:
+  - Genesis
+  - changelog
+---
+[[Genesis]]
+Alpha Version 2.0
+
+- Fishmen Island is currently under re-construction, you can still visit to see what I am up to but the island is not ready yet.
+- Forsaken strong hold in Avalon Isles has been strengthened to better represent end game content for after you have defeated Cat-Lon. Increased perception and better AI. More turrets, Siege camps erected to better represent the city’s current state.
+- New quests in the Avalon Isles!
+- Added endgame player home after defeating the Insane Warlord
+- 4 new locations (Mechamoor, Grease Factory, Cage, The Bonepile)
+- 2 New resources added (Raw Bone Marrow, Bone Oil)
+- 2 New Factions (The Marrows, Grease Goonz)
+- 2 Unique Weapons used by faction leaders
+- The Guild of Surgeons mod as been integrated to the overhaul, but the city and Leviathan’s Watch has been moved and downsized as to no be too intrusive to the world. Will need further tweaking and will undergo rework or removal of Red Hive/Redman’s Tower (Too controversial lore wise) in version 4.
+- Gutter and Wolf Headgear added
+- Gusoku Armor and Impaler Armor added
+- New GUI Map Markers
+- 57 New Loading Screens
+- Outcast Banners added (A lot of new banners)
+- The mod author AGO of More Combat Animations, More Idle Stances has added his mods into our overhaul! There are a lot of new combat animations, a lot.
+- All of Accord’s asset mods (Nomad Cape, Backpacks, Shields, Weapon Sheaths):
+- Custom nomadic capes added to nomads
+- Custom backpacks with multiple colors
+- Custom shields
+- Custom weapon sheaths for large weapons
+- Crimson Beakthings in Vain
+- Blue Beakthings in Gut (Prices for both Beakthing’s eggs are placeholder)
+- Custom color scheme for Avalon War Bulls
+- Avalon Isles recruit had dialogue branch removed
+- Lazlo is now a man
+- Thief Groups no longer share vendor list with bars
+- Jodo dialogue bug fix
+- Fixed issue with extremely long load times for certain regions (Metal fences caused exponential increase in load times, they have been removed)
+- Sword and Bazaar take overs fixed
+- Slave hunters not wearing chest or leg armor fixed
+- City take over squads fixed for Grogery
+- Rizzo Rat tamers no longer attack their own rats
+- Fixed TS-09 being hungry even though he’s a robot
+- Attempted to fix Howlers not attacking
+- Interiors for multi-story Moor buildings have been fixed with proper navmesh
+- Replaced problematic Bughouse and L-House in Heft
+- Snail House in Sho-Battai had its squatters removed, issue with clutter remaining when building was bought and repaired
+- Fixed the Craxius dialogue loop
+- Attempted to fix pathfinding between Hub and Waystation
+- Reintroduced Heft’s no foliage range that was accidently removed
+- Attempted to fix Machinist stealing weapons from players sleeping in bars
+- Rebel Farmers should no longer attack hydroponics workers
+- Made the Genesis Dev Bot bloodless (Gods do not bleed) and increased limb health, combat speed, and athletics

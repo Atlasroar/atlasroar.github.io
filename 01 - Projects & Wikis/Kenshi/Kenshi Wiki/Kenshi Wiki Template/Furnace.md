@@ -1,0 +1,1 @@
+1.  REDIRECT [Item Furnace](Item_Furnace.md "wikilink")

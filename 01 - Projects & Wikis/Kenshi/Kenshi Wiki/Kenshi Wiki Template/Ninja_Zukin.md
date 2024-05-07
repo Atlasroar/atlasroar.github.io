@@ -1,0 +1,1 @@
+1.  REDIRECT [Ninja Mask](Ninja_Mask.md "wikilink")

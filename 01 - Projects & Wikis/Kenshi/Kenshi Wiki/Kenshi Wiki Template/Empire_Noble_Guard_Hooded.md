@@ -1,0 +1,1 @@
+1.  REDIRECT [](Hooded_Empire_Noble_Guard.md)

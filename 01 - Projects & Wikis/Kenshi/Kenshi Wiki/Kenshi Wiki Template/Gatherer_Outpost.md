@@ -1,0 +1,1 @@
+1.  REDIRECT [Gatherer Village](Gatherer_Village.md "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [Weapon Smith](Weapon_Smith.md "wikilink")

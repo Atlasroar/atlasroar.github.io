@@ -1,0 +1,1 @@
+1.  REDIRECT [Battery Power (Tech)](Battery_Power_(Tech).md "wikilink")

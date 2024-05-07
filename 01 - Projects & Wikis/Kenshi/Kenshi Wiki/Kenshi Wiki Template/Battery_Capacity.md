@@ -1,0 +1,1 @@
+1.  REDIRECT [](Battery_Capacity_(Tech).md)

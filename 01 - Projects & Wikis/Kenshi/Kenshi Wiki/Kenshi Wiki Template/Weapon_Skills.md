@@ -1,0 +1,1 @@
+1.  REDIRECT [](Statistics.md#Weapon_skills)

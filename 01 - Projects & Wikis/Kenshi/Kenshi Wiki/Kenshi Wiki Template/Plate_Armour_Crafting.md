@@ -1,0 +1,1 @@
+1.  REDIRECT [](Plate_Armour_Crafting_(Tech).md)

@@ -1,0 +1,1 @@
+1.  REDIRECT [](Heavy_Generator_Theory_(Tech).md)

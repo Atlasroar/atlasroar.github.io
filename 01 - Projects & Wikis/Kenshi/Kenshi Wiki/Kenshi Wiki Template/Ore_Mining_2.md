@@ -1,0 +1,1 @@
+1.  REDIRECT [Ore Mining](Ore_Mining.md "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [Maril's Diary Series](Maril's_Diary_Series.md "wikilink")

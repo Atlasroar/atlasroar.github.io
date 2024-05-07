@@ -1,0 +1,1 @@
+1.  REDIRECT [Halfpants (padded)](Halfpants_(padded).md "wikilink")

@@ -1,0 +1,1 @@
+1.  REDIRECT [The Holy Nation](02%20-%20Projects%20&%20Wikis/Kenshi/Kenshi%20Wiki/Kenshi%20Wiki%20Template/The_Holy_Nation.md "wikilink")

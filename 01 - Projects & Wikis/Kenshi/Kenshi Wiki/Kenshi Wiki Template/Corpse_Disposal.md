@@ -1,0 +1,1 @@
+1.  REDIRECT [Corpse Disposal (Tech)](Corpse_Disposal_(Tech).md "wikilink")

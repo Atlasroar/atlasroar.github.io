@@ -1,0 +1,1 @@
+1.  REDIRECT [Empire Armor Shop](Empire_Armor_Shop.md "wikilink")

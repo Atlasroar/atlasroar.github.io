@@ -1,0 +1,1 @@
+1.  REDIRECT [Halfpants (reinforced)](Halfpants_(reinforced).md "wikilink")

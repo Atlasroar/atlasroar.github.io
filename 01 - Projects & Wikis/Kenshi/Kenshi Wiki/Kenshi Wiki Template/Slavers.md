@@ -1,0 +1,1 @@
+1.  REDIRECT [Slave Traders](03%20-%20Projects%20&%20Wikis/Kenshi/Kenshi%20Wiki/Kenshi%20Wiki%20Template/Slave_Traders.md "wikilink")

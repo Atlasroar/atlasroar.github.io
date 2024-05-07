@@ -1,0 +1,1 @@
+1.  REDIRECT [](Trader's_Wooden_Backpack.md)

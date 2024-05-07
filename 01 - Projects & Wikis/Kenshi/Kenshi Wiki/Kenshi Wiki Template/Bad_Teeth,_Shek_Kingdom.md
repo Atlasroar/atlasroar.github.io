@@ -1,0 +1,1 @@
+1.  REDIRECT [Bad Teeth/Shek Kingdom](Bad_Teeth/Shek_Kingdom "wikilink")

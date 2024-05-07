@@ -1,0 +1,1 @@
+1.  REDIRECT [Slave Recruits](Slave_Recruits.md "wikilink")
