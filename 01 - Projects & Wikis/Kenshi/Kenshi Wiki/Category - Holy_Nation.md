@@ -1,3 +1,0 @@
-Contains all articles relating to the [](01%20-%20Projects%20&%20Wikis/Kenshi/Kenshi%20Wiki/Kenshi%20Wiki%20Template/The_Holy_Nation.md).
-
-[Category:Factions](Category:Factions "wikilink")

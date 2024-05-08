@@ -1,1 +1,0 @@
-1.  REDIRECT [Assassin's Rags](Assassin's_Rags.md "wikilink")

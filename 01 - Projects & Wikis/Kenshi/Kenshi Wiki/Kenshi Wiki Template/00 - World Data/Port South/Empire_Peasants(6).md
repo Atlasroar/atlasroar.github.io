@@ -1,2 +1,0 @@
-If [Slave Master Wada](Slave_Master_Wada.md "wikilink"),
-[Longen](Longen.md "wikilink") and [](Emperor_Tengu.md) are all [](World_States.md), [](Port_South.md) will [](Town_Overrides.md) of [](03%20-%20Projects%20&%20Wikis/Kenshi/Kenshi%20Wiki/Kenshi%20Wiki%20Template/Empire_Peasants.md).

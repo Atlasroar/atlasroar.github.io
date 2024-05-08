@@ -1,1 +1,0 @@
-1.  REDIRECT [](Leather_Armour_Crafting_(Tech).md)

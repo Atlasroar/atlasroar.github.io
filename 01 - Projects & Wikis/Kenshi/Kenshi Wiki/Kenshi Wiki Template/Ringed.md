@@ -1,1 +1,0 @@
-1.  REDIRECT [Ringed Sabre](Ringed_Sabre.md "wikilink")

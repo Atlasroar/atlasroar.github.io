@@ -1,1 +1,0 @@
-1.  REDIRECT [Heft Armory](Heft_Armory.md "wikilink")

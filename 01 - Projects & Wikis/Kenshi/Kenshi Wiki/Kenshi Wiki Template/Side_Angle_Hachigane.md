@@ -1,1 +1,0 @@
-1.  REDIRECT [Side-Angle Hachigane](Side-Angle_Hachigane.md "wikilink")

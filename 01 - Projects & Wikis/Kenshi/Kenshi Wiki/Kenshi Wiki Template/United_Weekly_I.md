@@ -1,1 +1,0 @@
-1.  REDIRECT [United Weekly Series](United_Weekly_Series.md "wikilink")

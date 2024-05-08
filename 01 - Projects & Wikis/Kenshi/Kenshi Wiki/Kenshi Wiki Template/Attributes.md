@@ -1,1 +1,0 @@
-1.  REDIRECT [Statistics#Attributes](Statistics.md#Attributes "wikilink")

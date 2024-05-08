@@ -1,1 +1,0 @@
-1.  REDIRECT [](Skeleton_Smiths_(Manufacturer).md)

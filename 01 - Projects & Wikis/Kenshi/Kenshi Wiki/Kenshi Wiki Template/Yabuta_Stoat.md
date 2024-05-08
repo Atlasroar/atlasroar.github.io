@@ -1,1 +1,0 @@
-1.  REDIRECT [Stoat/Yabuta Outlaws](03%20-%20Projects%20&%20Wikis/Kenshi/Kenshi%20Wiki/Kenshi%20Wiki%20Template/Stoat/Yabuta_Outlaws.md "wikilink")

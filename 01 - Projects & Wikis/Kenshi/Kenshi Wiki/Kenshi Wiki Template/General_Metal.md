@@ -1,1 +1,0 @@
-1.  REDIRECT [Metal Purity](Metal_Purity.md "wikilink")

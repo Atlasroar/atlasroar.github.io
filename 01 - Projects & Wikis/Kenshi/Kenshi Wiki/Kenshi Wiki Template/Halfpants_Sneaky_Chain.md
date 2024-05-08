@@ -1,1 +1,0 @@
-1.  REDIRECT [](Halfpants_(sneaky_chain).md)

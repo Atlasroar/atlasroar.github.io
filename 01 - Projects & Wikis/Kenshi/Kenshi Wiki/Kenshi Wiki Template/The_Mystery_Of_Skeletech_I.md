@@ -1,1 +1,0 @@
-1.  REDIRECT [](The_Mystery_Of_Skeletech_Series.md)

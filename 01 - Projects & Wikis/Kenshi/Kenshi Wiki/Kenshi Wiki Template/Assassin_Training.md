@@ -1,1 +1,0 @@
-1.  REDIRECT [](Assassin_Training_(Tech).md)

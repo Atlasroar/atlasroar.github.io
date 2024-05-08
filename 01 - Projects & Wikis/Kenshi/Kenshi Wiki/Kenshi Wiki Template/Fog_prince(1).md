@@ -1,1 +1,0 @@
-1.  REDIRECT [Fog Prince](Fog_Prince.md "wikilink")

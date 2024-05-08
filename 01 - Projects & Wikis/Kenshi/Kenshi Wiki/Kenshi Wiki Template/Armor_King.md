@@ -1,1 +1,0 @@
-1.  REDIRECT [Armour King](Armour_King.md "wikilink")

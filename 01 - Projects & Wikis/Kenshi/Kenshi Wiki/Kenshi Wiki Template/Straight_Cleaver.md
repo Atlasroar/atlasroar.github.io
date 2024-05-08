@@ -1,1 +1,0 @@
-1.  REDIRECT [Long Cleaver](Long_Cleaver.md "wikilink")

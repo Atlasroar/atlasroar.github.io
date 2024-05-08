@@ -1,1 +1,0 @@
-1.  REDIRECT [Steel Bars (Tech)](Steel_Bars_(Tech).md "wikilink")

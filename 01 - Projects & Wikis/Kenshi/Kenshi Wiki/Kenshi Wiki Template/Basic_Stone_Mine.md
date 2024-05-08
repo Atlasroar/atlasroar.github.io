@@ -1,1 +1,0 @@
-1.  REDIRECT[Stone_Mine](Stone_Mine.md "wikilink")

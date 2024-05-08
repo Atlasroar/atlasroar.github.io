@@ -1,1 +1,0 @@
-1.  REDIRECT [Creating New Towns](Creating_New_Towns.md "wikilink")

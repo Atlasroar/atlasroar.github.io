@@ -1,1 +1,0 @@
-1.  REDIRECT [](Clothing_Manufacture_(Tech).md)

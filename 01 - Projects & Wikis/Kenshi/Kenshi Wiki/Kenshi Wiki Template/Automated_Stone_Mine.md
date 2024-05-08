@@ -1,1 +1,0 @@
-1.  REDIRECT [](Automated_Hybrid_Mine_(Tech).md)

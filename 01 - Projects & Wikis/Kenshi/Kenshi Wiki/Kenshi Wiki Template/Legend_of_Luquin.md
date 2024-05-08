@@ -1,1 +1,0 @@
-1.  redirect [](Legend_of_Luquin_Series.md)

@@ -1,1 +1,0 @@
-1.  REDIRECT [Medical Items](Medical_Items.md "wikilink")

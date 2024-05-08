@@ -1,1 +1,0 @@
-1.  REDIRECT [](Cultural_Groupings_And_Evolution_Series.md)

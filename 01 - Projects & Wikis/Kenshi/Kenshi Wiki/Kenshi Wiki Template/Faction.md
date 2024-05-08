@@ -1,1 +1,0 @@
-1.  REDIRECT [Factions](Factions.md "wikilink")

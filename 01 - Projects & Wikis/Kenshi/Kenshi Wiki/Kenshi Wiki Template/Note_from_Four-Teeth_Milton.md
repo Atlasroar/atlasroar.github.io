@@ -1,1 +1,0 @@
-1.  REDIRECT [Note From Blue Eyes](Note_From_Blue_Eyes.md "wikilink")

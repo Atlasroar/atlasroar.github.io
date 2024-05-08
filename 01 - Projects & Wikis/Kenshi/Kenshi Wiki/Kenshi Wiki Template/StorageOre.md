@@ -1,1 +1,0 @@
-1.  REDIRECT [Storage: Ore](Storage:_Ore "wikilink")

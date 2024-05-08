@@ -1,1 +1,0 @@
-1.  REDIRECT [Research Artifacts](Research_Artifacts.md "wikilink")

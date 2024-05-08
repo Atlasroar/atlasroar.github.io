@@ -1,1 +1,0 @@
-1.  REDIRECT [Hemp Farming (Tech)](Hemp_Farming_(Tech).md "wikilink")

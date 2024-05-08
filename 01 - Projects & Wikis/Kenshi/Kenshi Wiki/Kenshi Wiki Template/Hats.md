@@ -1,1 +1,0 @@
-1.  REDIRECT [Headgear](Headgear.md "wikilink")

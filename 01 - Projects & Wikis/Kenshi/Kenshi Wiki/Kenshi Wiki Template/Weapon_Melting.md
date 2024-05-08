@@ -1,1 +1,0 @@
-1.  REDIRECT [Weapon Melting (Tech)](Weapon_Melting_(Tech).md "wikilink")

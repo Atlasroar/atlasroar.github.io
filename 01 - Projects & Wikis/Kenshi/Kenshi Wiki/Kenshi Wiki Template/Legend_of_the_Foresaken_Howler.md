@@ -1,1 +1,0 @@
-1.  REDIRECT [Legends Series](Legends_Series.md "wikilink")

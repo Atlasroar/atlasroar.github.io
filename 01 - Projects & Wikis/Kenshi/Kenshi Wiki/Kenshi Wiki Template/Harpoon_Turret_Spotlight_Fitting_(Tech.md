@@ -1,1 +1,0 @@
-1.  REDIRECT [](Harpoon_Turret_Spotlight_Fitting_(Tech).md)

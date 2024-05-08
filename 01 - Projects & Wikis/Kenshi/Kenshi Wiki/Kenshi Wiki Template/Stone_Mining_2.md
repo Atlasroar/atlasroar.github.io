@@ -1,1 +1,0 @@
-1.  REDIRECT [](Improved_Stone_Mining_(Tech).md)

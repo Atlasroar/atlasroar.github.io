@@ -1,1 +1,0 @@
-1.  REDIRECT [Hiver Trader Caravan](Hiver_Trader_Caravan.md "wikilink")

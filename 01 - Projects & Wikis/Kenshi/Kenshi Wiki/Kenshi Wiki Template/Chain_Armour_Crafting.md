@@ -1,1 +1,0 @@
-1.  REDIRECT [](Chain_Armour_Crafting_(Tech).md)

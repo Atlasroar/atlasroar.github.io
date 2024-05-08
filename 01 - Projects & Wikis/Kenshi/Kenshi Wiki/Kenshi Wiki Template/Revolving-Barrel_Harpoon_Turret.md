@@ -1,1 +1,0 @@
-1.  REDIRECT [](Revolving-Barrel_Harpoon_Turret_(Tech).md)

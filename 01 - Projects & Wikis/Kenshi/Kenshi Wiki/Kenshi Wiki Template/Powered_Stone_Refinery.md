@@ -1,1 +1,0 @@
-1.  REDIRECT [](Powered_Stone_Refinery_(Tech).md)

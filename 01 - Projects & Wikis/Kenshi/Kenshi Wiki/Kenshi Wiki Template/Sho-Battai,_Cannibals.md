@@ -1,1 +1,0 @@
-1.  REDIRECT [03 - Projects & Wikis/Kenshi/Kenshi Wiki/Kenshi Wiki Template/Sho-Battai/Cannibals](03%20-%20Projects%20&%20Wikis/Kenshi/Kenshi%20Wiki/Kenshi%20Wiki%20Template/Sho-Battai/Cannibals.md "wikilink")

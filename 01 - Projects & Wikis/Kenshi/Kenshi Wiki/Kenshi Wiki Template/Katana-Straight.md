@@ -1,1 +1,0 @@
-1.  REDIRECT [Ninja Blade](Ninja_Blade.md "wikilink")

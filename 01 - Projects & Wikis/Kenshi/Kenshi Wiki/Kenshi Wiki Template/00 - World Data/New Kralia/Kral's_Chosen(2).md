@@ -1,1 +1,0 @@
-1.  REDIRECT [New Kralia/Destroyed](New_Kralia/Destroyed "wikilink")

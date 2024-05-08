@@ -1,1 +1,0 @@
-1.  REDIRECT [](Hybrid_Stone_Mine_(Tech).md)

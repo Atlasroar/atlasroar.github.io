@@ -1,1 +1,0 @@
-1.  REDIRECT [Cargopants (padded)](Cargopants_(padded).md "wikilink")

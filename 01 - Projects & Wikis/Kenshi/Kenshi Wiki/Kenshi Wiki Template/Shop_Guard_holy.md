@@ -1,1 +1,0 @@
-1.  REDIRECT [Holy Shop Guard](Holy_Shop_Guard.md "wikilink")

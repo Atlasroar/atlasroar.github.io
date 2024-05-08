@@ -1,1 +1,0 @@
-1.  REDIRECT [](Heavy_Building_Foundations_(Tech).md)

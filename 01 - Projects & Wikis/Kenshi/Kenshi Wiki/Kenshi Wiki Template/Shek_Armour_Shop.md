@@ -1,1 +1,0 @@
-1.  REDIRECT [Shek Armor Shop](Shek_Armor_Shop.md "wikilink")

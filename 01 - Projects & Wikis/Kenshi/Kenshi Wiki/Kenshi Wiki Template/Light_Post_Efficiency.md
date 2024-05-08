@@ -1,1 +1,0 @@
-1.  REDIRECT [](Light_Post_Efficiency_(Tech).md)

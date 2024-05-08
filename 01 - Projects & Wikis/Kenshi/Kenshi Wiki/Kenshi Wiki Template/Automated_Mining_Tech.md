@@ -1,1 +1,0 @@
-1.  REDIRECT [](Automated_Mining_Tech_(Tech).md)

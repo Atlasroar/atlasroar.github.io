@@ -1,1 +1,0 @@
-1.  REDIRECT [Game Starts](Game_Starts.md "wikilink")

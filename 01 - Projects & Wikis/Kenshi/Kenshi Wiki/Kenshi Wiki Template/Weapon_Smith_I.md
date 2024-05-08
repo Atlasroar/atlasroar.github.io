@@ -1,1 +1,0 @@
-1.  redirect [Weapon Smithing Bench](Weapon_Smithing_Bench.md "wikilink")

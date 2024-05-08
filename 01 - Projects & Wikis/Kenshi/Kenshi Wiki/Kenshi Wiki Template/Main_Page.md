@@ -1,1 +1,0 @@
-1.  REDIRECT [Kenshi Wiki](Kenshi_Wiki.md "wikilink")

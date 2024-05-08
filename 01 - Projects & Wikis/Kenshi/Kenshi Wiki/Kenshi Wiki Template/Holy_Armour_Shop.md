@@ -1,1 +1,0 @@
-1.  REDIRECT [Holy Armor Shop](Holy_Armor_Shop.md "wikilink")

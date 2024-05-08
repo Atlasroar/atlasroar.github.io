@@ -1,1 +1,0 @@
-1.  REDIRECT [Iron Club](Iron_Club.md "wikilink")

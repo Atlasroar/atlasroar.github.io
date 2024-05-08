@@ -1,1 +1,0 @@
-1.  REDIRECT [Copper](Copper.md "wikilink")

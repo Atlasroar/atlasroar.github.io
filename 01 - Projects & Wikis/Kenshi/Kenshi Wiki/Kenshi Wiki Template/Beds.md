@@ -1,1 +1,0 @@
-1.  REDIRECT [Beds (Tech)](Beds_(Tech).md "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [Blunt Weapons](Blunt_Weapons.md "wikilink")

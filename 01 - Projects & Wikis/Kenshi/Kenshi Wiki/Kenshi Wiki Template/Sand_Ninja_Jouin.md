@@ -1,1 +1,0 @@
-1.  REDIRECT [Sand Ninja Jounin](Sand_Ninja_Jounin.md "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [Field Medic](Field_Medic.md "wikilink")

@@ -1,1 +1,0 @@
-1.  REDIRECT [Wakizashi](Wakizashi.md "wikilink")

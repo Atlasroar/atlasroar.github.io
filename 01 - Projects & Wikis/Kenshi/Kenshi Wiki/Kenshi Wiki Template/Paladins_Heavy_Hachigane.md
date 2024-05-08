@@ -1,1 +1,0 @@
-1.  REDIRECT [](Paladin's_Heavy_Hachigane.md)

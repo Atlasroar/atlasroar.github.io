@@ -1,1 +1,0 @@
-1.  REDIRECT [](Scripture_of_Radiance_Series.md)

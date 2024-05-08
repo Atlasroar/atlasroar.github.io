@@ -1,1 +1,0 @@
-1.  REDIRECT [Statistics#Skills](Statistics.md#Skills "wikilink")

@@ -1,1 +1,0 @@
-[Category:Images](Category:Images "wikilink")

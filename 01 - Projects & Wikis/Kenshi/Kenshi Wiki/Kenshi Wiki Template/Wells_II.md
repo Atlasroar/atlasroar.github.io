@@ -1,1 +1,0 @@
-1.  REDIRECT [Wells (Tech)](Wells_(Tech).md "wikilink")
